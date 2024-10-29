@@ -1,0 +1,224 @@
+[  1%] Built target motor_controller__rosidl_generator_type_description
+[  7%] Built target serial
+[  7%] Built target ament_cmake_python_copy_motor_controller
+[  9%] Built target motor_controller__cpp
+[ 26%] Built target motor_controller__rosidl_generator_c
+[ 33%] Built target motor_controller__rosidl_typesupport_c
+[ 41%] Built target motor_controller__rosidl_typesupport_introspection_cpp
+[ 53%] Built target motor_controller__rosidl_typesupport_fastrtps_c
+[ 56%] Built target motor_controller__rosidl_typesupport_cpp
+[ 64%] Built target motor_controller__rosidl_typesupport_introspection_c
+[ 72%] Built target motor_controller__rosidl_typesupport_fastrtps_cpp
+[ 72%] Built target motor_controller
+[ 75%] Built target command_subscriber
+[ 78%] Built target motor_controller_node
+[ 80%] [32mBuilding CXX object CMakeFiles/gpio_subscriber_node.dir/src/gpio_subscriber_node.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/gpio_subscriber_node.dir/src/gpio_subscriber_main.cpp.o[0m
+[ 83%] Built target motor_controller__py
+running egg_info
+writing motor_controller.egg-info/PKG-INFO
+writing dependency_links to motor_controller.egg-info/dependency_links.txt
+writing top-level names to motor_controller.egg-info/top_level.txt
+[ 89%] Built target motor_controller__rosidl_generator_py
+reading manifest file 'motor_controller.egg-info/SOURCES.txt'
+writing manifest file 'motor_controller.egg-info/SOURCES.txt'
+[ 92%] Built target motor_controller_s__rosidl_typesupport_fastrtps_c
+[ 95%] Built target motor_controller_s__rosidl_typesupport_introspection_c
+[ 98%] Built target motor_controller_s__rosidl_typesupport_c
+[ 98%] Built target ament_cmake_python_build_motor_controller_egg
+[100%] [32m[1mLinking CXX executable gpio_subscriber_node[0m
+[100%] Built target gpio_subscriber_node
+-- Install configuration: ""
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/ament_index/resource_index/rosidl_interfaces/motor_controller
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/Dccommand.json
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/StepperCommand.json
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/UnitreeCommand.json
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/dccommand.h
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__description.c
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__functions.c
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__functions.h
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__struct.h
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__type_support.c
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__type_support.h
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__description.c
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__functions.c
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__functions.h
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__struct.h
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__type_support.c
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__type_support.h
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__description.c
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__functions.c
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__functions.h
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__struct.h
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__type_support.c
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__type_support.h
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/stepper_command.h
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/unitree_command.h
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/environment/library_path.sh
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/environment/library_path.dsv
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller
+-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg
+-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller
+-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/dccommand.hpp
+-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__builder.hpp
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__struct.hpp
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__traits.hpp
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__type_support.hpp
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__builder.hpp
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__struct.hpp
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__traits.hpp
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__type_support.hpp
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__builder.hpp
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__struct.hpp
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__traits.hpp
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__type_support.hpp
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/stepper_command.hpp
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/unitree_command.hpp
+-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller
+-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg
+-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dds_fastrtps
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller
+-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg
+-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__rosidl_typesupport_introspection_c.h
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__type_support.c
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__rosidl_typesupport_introspection_c.h
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__type_support.c
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__rosidl_typesupport_introspection_c.h
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__type_support.c
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller
+-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg
+-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__type_support.cpp
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__type_support.cpp
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__type_support.cpp
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/environment/pythonpath.sh
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/environment/pythonpath.dsv
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller-0.0.1-py3.12.egg-info
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller-0.0.1-py3.12.egg-info/dependency_links.txt
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller-0.0.1-py3.12.egg-info/PKG-INFO
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller-0.0.1-py3.12.egg-info/SOURCES.txt
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller-0.0.1-py3.12.egg-info/top_level.txt
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_c.so
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_fastrtps_c.so
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_introspection_c.so
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/_dccommand.py
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/_dccommand_s.c
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/_stepper_command.py
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/_stepper_command_s.c
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/_unitree_command.py
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/_unitree_command_s.c
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/__init__.py
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/_motor_controller_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/_motor_controller_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/_motor_controller_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/__init__.py
+Listing '/home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller'...
+Compiling '/home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/__init__.py'...
+Listing '/home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg'...
+Compiling '/home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/__init__.py'...
+Compiling '/home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/_dccommand.py'...
+Compiling '/home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/_stepper_command.py'...
+Compiling '/home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/_unitree_command.py'...
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_c.so" to ""
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_generator_py.so" to ""
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/Dccommand.idl
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/StepperCommand.idl
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/UnitreeCommand.idl
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/Dccommand.msg
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/StepperCommand.msg
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/UnitreeCommand.msg
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/motor_controller/motor_controller_node
+-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/motor_controller/motor_controller_node" to ""
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/motor_controller/command_subscriber
+-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/motor_controller/command_subscriber" to ""
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/motor_controller/gpio_subscriber_node
+-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/motor_controller/gpio_subscriber_node" to ""
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/motor_controller/libserial.a
+-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include
+-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/gpio_subscriber_node.hpp
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller_node.hpp
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/serial
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/ament_index/resource_index/package_run_dependencies/motor_controller
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/ament_index/resource_index/parent_prefix_path/motor_controller
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/environment/ament_prefix_path.sh
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/environment/path.sh
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/environment/path.dsv
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/local_setup.bash
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/local_setup.sh
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/local_setup.zsh
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/local_setup.dsv
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/package.dsv
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/ament_index/resource_index/packages/motor_controller
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_generator_cExport.cmake
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_generator_cppExport.cmake
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_cExport.cmake
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_generator_pyExport.cmake
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controllerConfig.cmake
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controllerConfig-version.cmake
+-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/package.xml

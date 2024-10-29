@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from motor_controller/msg/Dccommand.msg
+// generated code does not contain a copyright notice
+
+
+module motor_controller {
+  module msg {
+    struct Dccommand {
+      @verbatim (language="comment", text=
+        "PWM for back left motor")
+      int32 motorbl;
+
+      @verbatim (language="comment", text=
+        "PWM for back right motor")
+      int32 motorbr;
+
+      @verbatim (language="comment", text=
+        "PWM for front left motor")
+      int32 motorfl;
+
+      @verbatim (language="comment", text=
+        "PWM for front right motor")
+      int32 motorfr;
+    };
+  };
+};

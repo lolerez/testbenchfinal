@@ -1,0 +1,163 @@
+[0.000000] (-) TimerEvent: {}
+[0.001074] (motor_controller) JobQueued: {'identifier': 'motor_controller', 'dependencies': OrderedDict()}
+[0.001201] (motor_controller) JobStarted: {'identifier': 'motor_controller'}
+[0.060122] (motor_controller) JobProgress: {'identifier': 'motor_controller', 'progress': 'cmake'}
+[0.061992] (motor_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/lolerez/ros2_ws/src/motor_controller', '-DCMAKE_INSTALL_PREFIX=/home/lolerez/ros2_ws/install/motor_controller'], 'cwd': '/home/lolerez/ros2_ws/build/motor_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lolerez', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/lolerez/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lolerez/ros2_ws/install/motor_controller/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lolerez', 'OLDPWD': '/home/lolerez', 'TERM_PROGRAM_VERSION': '1.94.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-852afcba-53e3-498b-9f9f-36fbce63c33f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/lolerez/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/lolerez/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/node', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', '_colcon_cd_root': '/opt/ros/jazzy/', 'COLCON_PREFIX_PATH': '/home/lolerez/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lolerez', 'NAME': 'DESKTOP-S5P3QPD', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/lolerez/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/Windows Live/Shared:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Users/loler/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/loler/.dotnet/tools:/mnt/c/Users/loler/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/Nmap', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-58c6319fee.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/lolerez/ros2_ws/install/motor_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/lolerez/ros2_ws/build/motor_controller', 'PYTHONPATH': '/home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/lolerez/ros2_ws/install/motor_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[0.108542] (-) TimerEvent: {}
+[0.184549] (motor_controller) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.217010] (-) TimerEvent: {}
+[0.325629] (-) TimerEvent: {}
+[0.436884] (-) TimerEvent: {}
+[0.547155] (-) TimerEvent: {}
+[0.655480] (-) TimerEvent: {}
+[0.764797] (-) TimerEvent: {}
+[0.868794] (motor_controller) StdoutLine: {'line': b'-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.869142] (-) TimerEvent: {}
+[0.984279] (-) TimerEvent: {}
+[0.989905] (motor_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.017215] (motor_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.045649] (motor_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.087976] (motor_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.088555] (-) TimerEvent: {}
+[1.200212] (-) TimerEvent: {}
+[1.256478] (motor_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.262873] (motor_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.310313] (-) TimerEvent: {}
+[1.420310] (-) TimerEvent: {}
+[1.530121] (-) TimerEvent: {}
+[1.544202] (motor_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.636918] (-) TimerEvent: {}
+[1.718420] (motor_controller) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.746006] (-) TimerEvent: {}
+[1.746838] (motor_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.751725] (motor_controller) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.854788] (-) TimerEvent: {}
+[1.962977] (-) TimerEvent: {}
+[2.072822] (-) TimerEvent: {}
+[2.181063] (-) TimerEvent: {}
+[2.291013] (-) TimerEvent: {}
+[2.401188] (-) TimerEvent: {}
+[2.511946] (-) TimerEvent: {}
+[2.621165] (-) TimerEvent: {}
+[2.731035] (-) TimerEvent: {}
+[2.838968] (-) TimerEvent: {}
+[2.945820] (-) TimerEvent: {}
+[3.053049] (-) TimerEvent: {}
+[3.163887] (-) TimerEvent: {}
+[3.273683] (-) TimerEvent: {}
+[3.384698] (-) TimerEvent: {}
+[3.492992] (-) TimerEvent: {}
+[3.601645] (-) TimerEvent: {}
+[3.708934] (-) TimerEvent: {}
+[3.819361] (-) TimerEvent: {}
+[3.930091] (-) TimerEvent: {}
+[4.041426] (-) TimerEvent: {}
+[4.149543] (-) TimerEvent: {}
+[4.244897] (motor_controller) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[4.257309] (-) TimerEvent: {}
+[4.364797] (-) TimerEvent: {}
+[4.474625] (-) TimerEvent: {}
+[4.584375] (-) TimerEvent: {}
+[4.694607] (-) TimerEvent: {}
+[4.804306] (-) TimerEvent: {}
+[4.915558] (-) TimerEvent: {}
+[5.024878] (-) TimerEvent: {}
+[5.135688] (-) TimerEvent: {}
+[5.246532] (-) TimerEvent: {}
+[5.357753] (-) TimerEvent: {}
+[5.467638] (-) TimerEvent: {}
+[5.577351] (-) TimerEvent: {}
+[5.688223] (-) TimerEvent: {}
+[5.797425] (-) TimerEvent: {}
+[5.906850] (-) TimerEvent: {}
+[6.016619] (-) TimerEvent: {}
+[6.125616] (-) TimerEvent: {}
+[6.235749] (-) TimerEvent: {}
+[6.344387] (-) TimerEvent: {}
+[6.451926] (-) TimerEvent: {}
+[6.562674] (-) TimerEvent: {}
+[6.671475] (-) TimerEvent: {}
+[6.780131] (-) TimerEvent: {}
+[6.889396] (-) TimerEvent: {}
+[6.999483] (-) TimerEvent: {}
+[7.053219] (motor_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.106845] (-) TimerEvent: {}
+[7.215405] (-) TimerEvent: {}
+[7.324177] (-) TimerEvent: {}
+[7.432439] (-) TimerEvent: {}
+[7.541673] (-) TimerEvent: {}
+[7.651446] (-) TimerEvent: {}
+[7.760186] (-) TimerEvent: {}
+[7.869337] (-) TimerEvent: {}
+[7.980279] (-) TimerEvent: {}
+[8.090506] (-) TimerEvent: {}
+[8.128284] (motor_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.191420] (motor_controller) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[8.191719] (-) TimerEvent: {}
+[8.294142] (-) TimerEvent: {}
+[8.404010] (-) TimerEvent: {}
+[8.512516] (-) TimerEvent: {}
+[8.622792] (-) TimerEvent: {}
+[8.649968] (motor_controller) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[8.732185] (-) TimerEvent: {}
+[8.843535] (-) TimerEvent: {}
+[8.952610] (-) TimerEvent: {}
+[9.063484] (-) TimerEvent: {}
+[9.172231] (-) TimerEvent: {}
+[9.281889] (-) TimerEvent: {}
+[9.390196] (-) TimerEvent: {}
+[9.498717] (-) TimerEvent: {}
+[9.608939] (-) TimerEvent: {}
+[9.717532] (-) TimerEvent: {}
+[9.825304] (-) TimerEvent: {}
+[9.935050] (-) TimerEvent: {}
+[10.044326] (-) TimerEvent: {}
+[10.154139] (-) TimerEvent: {}
+[10.265416] (-) TimerEvent: {}
+[10.373629] (-) TimerEvent: {}
+[10.482352] (-) TimerEvent: {}
+[10.591586] (-) TimerEvent: {}
+[10.701876] (-) TimerEvent: {}
+[10.810610] (-) TimerEvent: {}
+[10.920823] (-) TimerEvent: {}
+[11.031601] (-) TimerEvent: {}
+[11.137630] (-) TimerEvent: {}
+[11.246831] (-) TimerEvent: {}
+[11.354663] (-) TimerEvent: {}
+[11.464477] (-) TimerEvent: {}
+[11.576179] (-) TimerEvent: {}
+[11.686445] (-) TimerEvent: {}
+[11.797489] (-) TimerEvent: {}
+[11.907942] (-) TimerEvent: {}
+[11.990315] (motor_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[12.016598] (-) TimerEvent: {}
+[12.125564] (-) TimerEvent: {}
+[12.233704] (-) TimerEvent: {}
+[12.312960] (motor_controller) StdoutLine: {'line': b'-- Non-Raspberry Pi environment detected. Skipping pigpio.\n'}
+[12.342940] (-) TimerEvent: {}
+[12.391006] (motor_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[12.452643] (-) TimerEvent: {}
+[12.560324] (-) TimerEvent: {}
+[12.669749] (-) TimerEvent: {}
+[12.778911] (-) TimerEvent: {}
+[12.888120] (-) TimerEvent: {}
+[12.895422] (motor_controller) StdoutLine: {'line': b'-- Configuring done (12.7s)\n'}
+[12.918195] (motor_controller) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:31 (add_library):\n'}
+[12.918789] (motor_controller) StderrLine: {'line': b'  Cannot find source file:\n'}
+[12.919033] (motor_controller) StderrLine: {'line': b'\n'}
+[12.919262] (motor_controller) StderrLine: {'line': b'    /home/lolerez/ros2_ws/src/motor_controller/libs/serial/src/impl/list_ports_linux.cc\n'}
+[12.919644] (motor_controller) StderrLine: {'line': b'\n'}
+[12.919881] (motor_controller) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm\n'}
+[12.920108] (motor_controller) StderrLine: {'line': b'  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90\n'}
+[12.920327] (motor_controller) StderrLine: {'line': b'  .f95 .f03 .hip .ispc\n'}
+[12.920577] (motor_controller) StderrLine: {'line': b'\n'}
+[12.920865] (motor_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[12.931261] (motor_controller) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:31 (add_library):\n'}
+[12.931800] (motor_controller) StderrLine: {'line': b'  No SOURCES given to target: serial\n'}
+[12.932102] (motor_controller) StderrLine: {'line': b'\n'}
+[12.932388] (motor_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[12.932952] (motor_controller) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[12.952685] (motor_controller) CommandEnded: {'returncode': 1}
+[12.997327] (-) TimerEvent: {}
+[13.090505] (motor_controller) JobEnded: {'identifier': 'motor_controller', 'rc': 1}
+[13.101599] (-) EventReactorShutdown: {}

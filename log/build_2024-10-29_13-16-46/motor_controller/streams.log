@@ -1,0 +1,154 @@
+[0.121s] Invoking command in '/home/lolerez/ros2_ws/build/motor_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/lolerez/ros2_ws/src/motor_controller -DCMAKE_INSTALL_PREFIX=/home/lolerez/ros2_ws/install/motor_controller
+[0.298s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.420s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.719s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.862s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.893s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.932s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.976s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.180s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.186s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.467s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.659s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.697s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.703s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.373s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.014s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.285s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.287s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.046s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.151s] -- Non-Raspberry Pi environment detected. Skipping pigpio.
+[4.157s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.217s] -- Configuring done (3.9s)
+[4.920s] -- Generating done (0.7s)
+[5.009s] -- Build files have been written to: /home/lolerez/ros2_ws/build/motor_controller
+[5.036s] Invoked command in '/home/lolerez/ros2_ws/build/motor_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/lolerez/ros2_ws/src/motor_controller -DCMAKE_INSTALL_PREFIX=/home/lolerez/ros2_ws/install/motor_controller
+[5.039s] Invoking command in '/home/lolerez/ros2_ws/build/motor_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/lolerez/ros2_ws/build/motor_controller -- -j12 -l12
+[5.701s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[5.715s] [  3%] [32mBuilding CXX object CMakeFiles/serial.dir/libs/serial/src/serial.cc.o[0m
+[5.719s] [  4%] [32mBuilding CXX object CMakeFiles/serial.dir/libs/serial/src/impl/list_ports/list_ports_linux.cc.o[0m
+[5.722s] [  6%] [32mBuilding CXX object CMakeFiles/serial.dir/libs/serial/src/impl/unix.cc.o[0m
+[5.812s] [  6%] Built target ament_cmake_python_copy_motor_controller
+[7.119s] [  6%] Built target motor_controller__rosidl_generator_type_description
+[7.196s] running egg_info
+[7.198s] creating motor_controller.egg-info
+[7.277s] [  7%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.319s] writing motor_controller.egg-info/PKG-INFO
+[7.320s] writing dependency_links to motor_controller.egg-info/dependency_links.txt
+[7.321s] writing top-level names to motor_controller.egg-info/top_level.txt
+[7.322s] writing manifest file 'motor_controller.egg-info/SOURCES.txt'
+[7.473s] [  9%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.886s] reading manifest file 'motor_controller.egg-info/SOURCES.txt'
+[7.888s] writing manifest file 'motor_controller.egg-info/SOURCES.txt'
+[8.120s] [  9%] Built target ament_cmake_python_build_motor_controller_egg
+[9.002s] [01m[K/home/lolerez/ros2_ws/src/motor_controller/libs/serial/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[01;32m[K glob[m[K(const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[9.005s] [01m[K/home/lolerez/ros2_ws/src/motor_controller/libs/serial/src/impl/list_ports/list_ports_linux.cc:66:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[9.005s]    66 |     for(int path_index = 0; [01;35m[Kpath_index < glob_results.gl_pathc[m[K; path_index++)
+[9.006s]       |                             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.007s] [01m[K/home/lolerez/ros2_ws/src/motor_controller/libs/serial/src/impl/list_ports/list_ports_linux.cc:57:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kglob_retval[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[9.007s]    57 |     int [01;35m[Kglob_retval[m[K = glob(patterns[0].c_str(), 0, NULL, &glob_results);
+[9.008s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[9.019s] [01m[K/home/lolerez/ros2_ws/src/motor_controller/libs/serial/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::string[01;32m[K format[m[K(const char*, ...)[m[K’:
+[9.020s] [01m[K/home/lolerez/ros2_ws/src/motor_controller/libs/serial/src/impl/list_ports/list_ports_linux.cc:246:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[9.020s]   246 |         else if( [01;35m[Kreturn_value >= buffer_size_bytes[m[K )
+[9.020s]       |                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[10.050s] [  9%] Built target motor_controller__cpp
+[10.393s] [ 10%] [32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_c.dir/rosidl_generator_c/motor_controller/msg/detail/dccommand__description.c.o[0m
+[10.402s] [ 12%] [32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_c.dir/rosidl_generator_c/motor_controller/msg/detail/dccommand__functions.c.o[0m
+[10.413s] [ 13%] [32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_c.dir/rosidl_generator_c/motor_controller/msg/detail/dccommand__type_support.c.o[0m
+[10.414s] [ 15%] [32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_c.dir/rosidl_generator_c/motor_controller/msg/detail/stepper_command__description.c.o[0m
+[10.421s] [ 16%] [32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_c.dir/rosidl_generator_c/motor_controller/msg/detail/stepper_command__functions.c.o[0m
+[10.422s] [ 18%] [32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_c.dir/rosidl_generator_c/motor_controller/msg/detail/stepper_command__type_support.c.o[0m
+[10.447s] [ 21%] [32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_c.dir/rosidl_generator_c/motor_controller/msg/detail/unitree_command__functions.c.o[0m
+[10.448s] [ 21%] [32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_c.dir/rosidl_generator_c/motor_controller/msg/detail/unitree_command__description.c.o[0m
+[10.454s] [ 23%] [32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_c.dir/rosidl_generator_c/motor_controller/msg/detail/unitree_command__type_support.c.o[0m
+[10.833s] [ 24%] [32m[1mLinking CXX static library libserial.a[0m
+[11.434s] [ 26%] [32m[1mLinking C shared library libmotor_controller__rosidl_generator_c.so[0m
+[11.832s] [ 26%] Built target motor_controller__rosidl_generator_c
+[12.002s] [ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.004s] [ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[12.011s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.013s] [ 32%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[12.021s] [ 33%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[12.030s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.297s] [ 35%] Built target serial
+[14.070s] [ 36%] [32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_controller/msg/dccommand__type_support.cpp.o[0m
+[14.087s] [ 38%] [32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_controller/msg/stepper_command__type_support.cpp.o[0m
+[14.162s] [ 40%] [32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_controller/msg/dccommand__type_support.cpp.o[0m
+[14.254s] [ 41%] [32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_controller/msg/unitree_command__type_support.cpp.o[0m
+[14.301s] [ 43%] [32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_controller/msg/stepper_command__type_support.cpp.o[0m
+[14.315s] [ 44%] [32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_controller/msg/unitree_command__type_support.cpp.o[0m
+[14.457s] [ 46%] [32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_controller/msg/detail/dccommand__type_support.cpp.o[0m
+[14.531s] [ 47%] [32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_controller/msg/detail/stepper_command__type_support.cpp.o[0m
+[14.572s] [ 49%] [32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_controller/msg/detail/unitree_command__type_support.cpp.o[0m
+[14.625s] [ 50%] [32mBuilding C object CMakeFiles/motor_controller__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_controller/msg/detail/dccommand__type_support.c.o[0m
+[14.716s] [ 52%] [32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_controller/msg/detail/dds_fastrtps/dccommand__type_support.cpp.o[0m
+[15.226s] [ 53%] [32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motor_controller/msg/detail/dccommand__type_support_c.cpp.o[0m
+[15.492s] [ 55%] [32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_controller/msg/detail/dds_fastrtps/stepper_command__type_support.cpp.o[0m
+[15.509s] [ 56%] [32mBuilding C object CMakeFiles/motor_controller__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_controller/msg/detail/stepper_command__type_support.c.o[0m
+[15.522s] [ 58%] [32m[1mLinking CXX shared library libmotor_controller__rosidl_typesupport_c.so[0m
+[15.944s] [ 60%] [32mBuilding C object CMakeFiles/motor_controller__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_controller/msg/detail/unitree_command__type_support.c.o[0m
+[16.475s] [ 61%] [32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motor_controller/msg/detail/stepper_command__type_support_c.cpp.o[0m
+[16.747s] [ 61%] Built target motor_controller__rosidl_typesupport_c
+[16.883s] [ 63%] [32m[1mLinking C shared library libmotor_controller__rosidl_typesupport_introspection_c.so[0m
+[17.003s] [ 64%] [32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_controller/msg/detail/dds_fastrtps/unitree_command__type_support.cpp.o[0m
+[17.881s] [ 64%] Built target motor_controller__rosidl_typesupport_introspection_c
+[18.007s] [ 66%] [32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motor_controller/msg/detail/unitree_command__type_support_c.cpp.o[0m
+[18.077s] [ 67%] [32m[1mLinking CXX shared library libmotor_controller__rosidl_typesupport_cpp.so[0m
+[18.186s] [ 69%] [32m[1mLinking CXX shared library libmotor_controller__rosidl_typesupport_introspection_cpp.so[0m
+[18.840s] [ 69%] Built target motor_controller__rosidl_typesupport_cpp
+[18.937s] [ 69%] Built target motor_controller__rosidl_typesupport_introspection_cpp
+[19.384s] [ 70%] [32mBuilding CXX object CMakeFiles/motor_controller_node.dir/src/motor_controller_node.cpp.o[0m
+[19.400s] [ 72%] [32mBuilding CXX object CMakeFiles/command_subscriber.dir/src/command_subscriber.cpp.o[0m
+[19.425s] [ 73%] [32mBuilding CXX object CMakeFiles/gpio_subscriber_node.dir/src/gpio_subscriber_node.cpp.o[0m
+[19.426s] [ 75%] [32mBuilding CXX object CMakeFiles/gpio_subscriber_node.dir/src/gpio_subscriber_main.cpp.o[0m
+[20.739s] [ 76%] [32m[1mLinking CXX shared library libmotor_controller__rosidl_typesupport_fastrtps_cpp.so[0m
+[21.357s] [ 78%] [32m[1mLinking CXX shared library libmotor_controller__rosidl_typesupport_fastrtps_c.so[0m
+[21.447s] [ 78%] Built target motor_controller__rosidl_typesupport_fastrtps_cpp
+[21.981s] [ 78%] Built target motor_controller__rosidl_typesupport_fastrtps_c
+[22.289s] [ 78%] Built target motor_controller
+[22.581s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[24.432s] [ 80%] Built target motor_controller__py
+[24.705s] [ 81%] [32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_py.dir/rosidl_generator_py/motor_controller/msg/_stepper_command_s.c.o[0m
+[24.708s] [ 83%] [32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_py.dir/rosidl_generator_py/motor_controller/msg/_dccommand_s.c.o[0m
+[24.718s] [ 84%] [32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_py.dir/rosidl_generator_py/motor_controller/msg/_unitree_command_s.c.o[0m
+[27.600s] [ 86%] [32m[1mLinking C shared library libmotor_controller__rosidl_generator_py.so[0m
+[28.026s] [ 86%] Built target motor_controller__rosidl_generator_py
+[28.289s] [ 87%] [32mBuilding C object CMakeFiles/motor_controller_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/motor_controller/_motor_controller_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[28.290s] [ 89%] [32mBuilding C object CMakeFiles/motor_controller_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/motor_controller/_motor_controller_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[28.292s] [ 90%] [32mBuilding C object CMakeFiles/motor_controller_s__rosidl_typesupport_c.dir/rosidl_generator_py/motor_controller/_motor_controller_s.ep.rosidl_typesupport_c.c.o[0m
+[29.167s] [ 92%] [32m[1mLinking C shared module rosidl_generator_py/motor_controller/motor_controller_s__rosidl_typesupport_c.so[0m
+[29.202s] [ 93%] [32m[1mLinking C shared module rosidl_generator_py/motor_controller/motor_controller_s__rosidl_typesupport_introspection_c.so[0m
+[29.299s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/motor_controller/motor_controller_s__rosidl_typesupport_fastrtps_c.so[0m
+[29.714s] [ 95%] Built target motor_controller_s__rosidl_typesupport_c
+[29.730s] [ 95%] Built target motor_controller_s__rosidl_typesupport_introspection_c
+[29.818s] [ 95%] Built target motor_controller_s__rosidl_typesupport_fastrtps_c
+[36.116s] [01m[K/home/lolerez/ros2_ws/src/motor_controller/src/gpio_subscriber_node.cpp:[m[K In constructor ‘[01m[KGPIOSubscriberNode::[01;32m[KGPIOSubscriberNode[m[K()[m[K’:
+[36.117s] [01m[K/home/lolerez/ros2_ws/src/motor_controller/src/gpio_subscriber_node.cpp:11:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_port_[m[K’ was not declared in this scope
+[36.117s]    11 |     [01;31m[Kserial_port_[m[K.setPort("/dev/ttyUSB0");
+[36.117s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[36.164s] [01m[K/home/lolerez/ros2_ws/src/motor_controller/src/gpio_subscriber_node.cpp:[m[K In destructor ‘[01m[Kvirtual GPIOSubscriberNode::[01;32m[K~GPIOSubscriberNode[m[K()[m[K’:
+[36.164s] [01m[K/home/lolerez/ros2_ws/src/motor_controller/src/gpio_subscriber_node.cpp:40:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_port_[m[K’ was not declared in this scope
+[36.164s]    40 |     [01;31m[Kserial_port_[m[K.close();
+[36.164s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[36.187s] [01m[K/home/lolerez/ros2_ws/src/motor_controller/src/gpio_subscriber_node.cpp:[m[K In member function ‘[01m[Kvoid GPIOSubscriberNode::[01;32m[Kdc_callback[m[K(motor_controller::msg::Dccommand_<std::allocator<void> >::SharedPtr)[m[K’:
+[36.187s] [01m[K/home/lolerez/ros2_ws/src/motor_controller/src/gpio_subscriber_node.cpp:50:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_port_[m[K’ was not declared in this scope
+[36.187s]    50 |     [01;31m[Kserial_port_[m[K.write(ss.str());
+[36.188s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[36.215s] [01m[K/home/lolerez/ros2_ws/src/motor_controller/src/gpio_subscriber_node.cpp:[m[K In member function ‘[01m[Kvoid GPIOSubscriberNode::[01;32m[Kstepper_callback[m[K(motor_controller::msg::StepperCommand_<std::allocator<void> >::SharedPtr)[m[K’:
+[36.216s] [01m[K/home/lolerez/ros2_ws/src/motor_controller/src/gpio_subscriber_node.cpp:60:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_port_[m[K’ was not declared in this scope
+[36.216s]    60 |     [01;31m[Kserial_port_[m[K.write(ss.str());
+[36.216s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[36.237s] [01m[K/home/lolerez/ros2_ws/src/motor_controller/src/gpio_subscriber_node.cpp:[m[K In member function ‘[01m[Kvoid GPIOSubscriberNode::[01;32m[Kunitree_callback[m[K(motor_controller::msg::UnitreeCommand_<std::allocator<void> >::SharedPtr)[m[K’:
+[36.238s] [01m[K/home/lolerez/ros2_ws/src/motor_controller/src/gpio_subscriber_node.cpp:70:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_port_[m[K’ was not declared in this scope
+[36.238s]    70 |     [01;31m[Kserial_port_[m[K.write(ss.str());
+[36.238s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[44.812s] gmake[2]: *** [CMakeFiles/gpio_subscriber_node.dir/build.make:76: CMakeFiles/gpio_subscriber_node.dir/src/gpio_subscriber_node.cpp.o] Error 1
+[44.813s] gmake[1]: *** [CMakeFiles/Makefile2:714: CMakeFiles/gpio_subscriber_node.dir/all] Error 2
+[44.813s] gmake[1]: *** Waiting for unfinished jobs....
+[59.667s] [ 96%] [32m[1mLinking CXX executable command_subscriber[0m
+[60.621s] [ 98%] [32m[1mLinking CXX executable motor_controller_node[0m
+[62.403s] [ 98%] Built target command_subscriber
+[62.679s] [ 98%] Built target motor_controller_node
+[62.684s] gmake: *** [Makefile:146: all] Error 2
+[62.693s] Invoked command in '/home/lolerez/ros2_ws/build/motor_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/lolerez/ros2_ws/build/motor_controller -- -j12 -l12

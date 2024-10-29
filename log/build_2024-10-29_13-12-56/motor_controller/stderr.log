@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:18 (message):
+  Serial include directory not found at:
+  /home/lolerez/ros2_ws/src/motor_controller/include/serial/include
+
+[0m
