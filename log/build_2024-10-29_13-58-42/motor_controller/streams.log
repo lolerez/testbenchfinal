@@ -1,0 +1,224 @@
+[0.077s] Invoking command in '/home/lolerez/ros2_ws/build/motor_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/lolerez/ros2_ws/build/motor_controller -- -j12 -l12
+[0.936s] [  1%] Built target motor_controller__rosidl_generator_type_description
+[1.085s] [  3%] [32mBuilding CXX object CMakeFiles/serial.dir/libs/serial/src/serial.cc.o[0m
+[1.109s] [  4%] [32mBuilding CXX object CMakeFiles/serial.dir/libs/serial/src/impl/unix.cc.o[0m
+[1.136s] [  6%] [32mBuilding CXX object CMakeFiles/serial.dir/libs/serial/src/impl/list_ports/list_ports_linux.cc.o[0m
+[1.265s] [  6%] Built target ament_cmake_python_copy_motor_controller
+[1.550s] [  7%] Built target motor_controller__cpp
+[1.643s] [ 24%] Built target motor_controller__rosidl_generator_c
+[2.398s] [ 32%] Built target motor_controller__rosidl_typesupport_cpp
+[2.425s] [ 46%] Built target motor_controller__rosidl_typesupport_fastrtps_c
+[2.426s] [ 47%] Built target motor_controller__rosidl_typesupport_c
+[2.448s] [ 55%] Built target motor_controller__rosidl_typesupport_fastrtps_cpp
+[2.461s] [ 63%] Built target motor_controller__rosidl_typesupport_introspection_cpp
+[2.470s] [ 70%] Built target motor_controller__rosidl_typesupport_introspection_c
+[3.002s] [ 70%] Built target motor_controller
+[3.182s] [ 73%] Built target motor_controller_node
+[3.204s] [ 76%] Built target command_subscriber
+[3.210s] [01m[K/home/lolerez/ros2_ws/src/motor_controller/libs/serial/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[01;32m[K glob[m[K(const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[3.211s] [01m[K/home/lolerez/ros2_ws/src/motor_controller/libs/serial/src/impl/list_ports/list_ports_linux.cc:66:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.212s]    66 |     for(int path_index = 0; [01;35m[Kpath_index < glob_results.gl_pathc[m[K; path_index++)
+[3.213s]       |                             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.213s] [01m[K/home/lolerez/ros2_ws/src/motor_controller/libs/serial/src/impl/list_ports/list_ports_linux.cc:57:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kglob_retval[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[3.214s]    57 |     int [01;35m[Kglob_retval[m[K = glob(patterns[0].c_str(), 0, NULL, &glob_results);
+[3.214s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[3.231s] [01m[K/home/lolerez/ros2_ws/src/motor_controller/libs/serial/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::string[01;32m[K format[m[K(const char*, ...)[m[K’:
+[3.231s] [01m[K/home/lolerez/ros2_ws/src/motor_controller/libs/serial/src/impl/list_ports/list_ports_linux.cc:246:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.232s]   246 |         else if( [01;35m[Kreturn_value >= buffer_size_bytes[m[K )
+[3.232s]       |                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[3.445s] running egg_info
+[3.536s] [ 78%] Built target motor_controller__py
+[3.679s] writing motor_controller.egg-info/PKG-INFO
+[3.681s] writing dependency_links to motor_controller.egg-info/dependency_links.txt
+[3.683s] writing top-level names to motor_controller.egg-info/top_level.txt
+[4.112s] [ 84%] Built target motor_controller__rosidl_generator_py
+[4.153s] [ 86%] [32m[1mLinking CXX static library libserial.a[0m
+[4.260s] reading manifest file 'motor_controller.egg-info/SOURCES.txt'
+[4.267s] writing manifest file 'motor_controller.egg-info/SOURCES.txt'
+[4.531s] [ 86%] Built target ament_cmake_python_build_motor_controller_egg
+[4.654s] [ 89%] Built target motor_controller_s__rosidl_typesupport_c
+[4.660s] [ 92%] Built target motor_controller_s__rosidl_typesupport_fastrtps_c
+[4.672s] [ 95%] Built target motor_controller_s__rosidl_typesupport_introspection_c
+[5.074s] [ 95%] Built target serial
+[5.486s] [ 96%] [32mBuilding CXX object CMakeFiles/gpio_subscriber_node.dir/src/gpio_subscriber_node.cpp.o[0m
+[5.492s] [ 98%] [32mBuilding CXX object CMakeFiles/gpio_subscriber_node.dir/src/gpio_subscriber_main.cpp.o[0m
+[33.988s] [100%] [32m[1mLinking CXX executable gpio_subscriber_node[0m
+[35.807s] [100%] Built target gpio_subscriber_node
+[35.936s] Invoked command in '/home/lolerez/ros2_ws/build/motor_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/lolerez/ros2_ws/build/motor_controller -- -j12 -l12
+[37.889s] Invoking command in '/home/lolerez/ros2_ws/build/motor_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/lolerez/ros2_ws/build/motor_controller
+[38.043s] -- Install configuration: ""
+[38.044s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/ament_index/resource_index/rosidl_interfaces/motor_controller
+[38.045s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/Dccommand.json
+[38.046s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/StepperCommand.json
+[38.046s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/UnitreeCommand.json
+[38.047s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller
+[38.047s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg
+[38.048s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/dccommand.h
+[38.048s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail
+[38.049s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__description.c
+[38.049s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__functions.c
+[38.050s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__functions.h
+[38.051s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__struct.h
+[38.051s] -- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__type_support.c
+[38.055s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__type_support.h
+[38.056s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__description.c
+[38.057s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__functions.c
+[38.057s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__functions.h
+[38.058s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__struct.h
+[38.058s] -- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__type_support.c
+[38.062s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__type_support.h
+[38.063s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__description.c
+[38.064s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__functions.c
+[38.064s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__functions.h
+[38.065s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__struct.h
+[38.065s] -- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__type_support.c
+[38.069s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__type_support.h
+[38.070s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/rosidl_generator_c__visibility_control.h
+[38.071s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/stepper_command.h
+[38.072s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/unitree_command.h
+[38.073s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/environment/library_path.sh
+[38.073s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/environment/library_path.dsv
+[38.075s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_generator_c.so
+[38.077s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller
+[38.078s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg
+[38.079s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail
+[38.079s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__rosidl_typesupport_fastrtps_c.h
+[38.080s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__rosidl_typesupport_fastrtps_c.h
+[38.080s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__rosidl_typesupport_fastrtps_c.h
+[38.081s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[38.083s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_fastrtps_c.so
+[38.085s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller
+[38.086s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg
+[38.087s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/dccommand.hpp
+[38.087s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail
+[38.088s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__builder.hpp
+[38.088s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__struct.hpp
+[38.089s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__traits.hpp
+[38.089s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__type_support.hpp
+[38.090s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__builder.hpp
+[38.090s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__struct.hpp
+[38.091s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__traits.hpp
+[38.092s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__type_support.hpp
+[38.092s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__builder.hpp
+[38.093s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__struct.hpp
+[38.094s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__traits.hpp
+[38.094s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__type_support.hpp
+[38.095s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/rosidl_generator_cpp__visibility_control.hpp
+[38.095s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/stepper_command.hpp
+[38.095s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/unitree_command.hpp
+[38.096s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller
+[38.096s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg
+[38.097s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail
+[38.097s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__rosidl_typesupport_fastrtps_cpp.hpp
+[38.098s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dds_fastrtps
+[38.098s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__rosidl_typesupport_fastrtps_cpp.hpp
+[38.099s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__rosidl_typesupport_fastrtps_cpp.hpp
+[38.100s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[38.102s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_fastrtps_cpp.so
+[38.104s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller
+[38.105s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg
+[38.105s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail
+[38.106s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__rosidl_typesupport_introspection_c.h
+[38.106s] -- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__type_support.c
+[38.111s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__rosidl_typesupport_introspection_c.h
+[38.111s] -- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__type_support.c
+[38.115s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__rosidl_typesupport_introspection_c.h
+[38.115s] -- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__type_support.c
+[38.119s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[38.121s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_introspection_c.so
+[38.125s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_c.so
+[38.127s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller
+[38.127s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg
+[38.128s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail
+[38.129s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__rosidl_typesupport_introspection_cpp.hpp
+[38.129s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__type_support.cpp
+[38.130s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__rosidl_typesupport_introspection_cpp.hpp
+[38.131s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__type_support.cpp
+[38.132s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__rosidl_typesupport_introspection_cpp.hpp
+[38.132s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__type_support.cpp
+[38.135s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_introspection_cpp.so
+[38.140s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_cpp.so
+[38.143s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/environment/pythonpath.sh
+[38.144s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/environment/pythonpath.dsv
+[38.144s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller-0.0.1-py3.12.egg-info
+[38.145s] -- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller-0.0.1-py3.12.egg-info/dependency_links.txt
+[38.150s] -- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller-0.0.1-py3.12.egg-info/PKG-INFO
+[38.155s] -- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller-0.0.1-py3.12.egg-info/SOURCES.txt
+[38.160s] -- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller-0.0.1-py3.12.egg-info/top_level.txt
+[38.167s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller
+[38.169s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_c.so
+[38.170s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_fastrtps_c.so
+[38.170s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_introspection_c.so
+[38.171s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg
+[38.172s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/_dccommand.py
+[38.172s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/_dccommand_s.c
+[38.173s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/_stepper_command.py
+[38.173s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/_stepper_command_s.c
+[38.174s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/_unitree_command.py
+[38.174s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/_unitree_command_s.c
+[38.175s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/__init__.py
+[38.175s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/_motor_controller_s.ep.rosidl_typesupport_c.c
+[38.175s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/_motor_controller_s.ep.rosidl_typesupport_fastrtps_c.c
+[38.176s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/_motor_controller_s.ep.rosidl_typesupport_introspection_c.c
+[38.176s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/__init__.py
+[38.350s] Listing '/home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller'...
+[38.350s] Listing '/home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg'...
+[38.361s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_fastrtps_c.so
+[38.364s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_introspection_c.so
+[38.367s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_c.so
+[38.370s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_generator_py.so
+[38.372s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/Dccommand.idl
+[38.373s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/StepperCommand.idl
+[38.373s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/UnitreeCommand.idl
+[38.373s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/Dccommand.msg
+[38.374s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/StepperCommand.msg
+[38.375s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/UnitreeCommand.msg
+[38.377s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/motor_controller/motor_controller_node
+[38.382s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/lib/motor_controller/command_subscriber
+[38.387s] -- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/motor_controller/gpio_subscriber_node
+[38.507s] -- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/motor_controller/gpio_subscriber_node" to ""
+[38.508s] -- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/motor_controller/libserial.a
+[38.515s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include
+[38.516s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller
+[38.516s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/gpio_subscriber_node.hpp
+[38.519s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller_node.hpp
+[38.521s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/ament_index/resource_index/package_run_dependencies/motor_controller
+[38.521s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/ament_index/resource_index/parent_prefix_path/motor_controller
+[38.522s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/environment/ament_prefix_path.sh
+[38.523s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/environment/ament_prefix_path.dsv
+[38.523s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/environment/path.sh
+[38.524s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/environment/path.dsv
+[38.524s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/local_setup.bash
+[38.525s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/local_setup.sh
+[38.525s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/local_setup.zsh
+[38.526s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/local_setup.dsv
+[38.526s] -- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/package.dsv
+[38.528s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/ament_index/resource_index/packages/motor_controller
+[38.530s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_generator_cExport.cmake
+[38.531s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_generator_cExport-noconfig.cmake
+[38.532s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_typesupport_fastrtps_cExport.cmake
+[38.533s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[38.535s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_generator_cppExport.cmake
+[38.537s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_typesupport_fastrtps_cppExport.cmake
+[38.538s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[38.539s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_introspection_cExport.cmake
+[38.540s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[38.542s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_cExport.cmake
+[38.543s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_cExport-noconfig.cmake
+[38.545s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_introspection_cppExport.cmake
+[38.546s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[38.547s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_cppExport.cmake
+[38.548s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_cppExport-noconfig.cmake
+[38.549s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_generator_pyExport.cmake
+[38.550s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_generator_pyExport-noconfig.cmake
+[38.551s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/rosidl_cmake-extras.cmake
+[38.551s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.552s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[38.552s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[38.553s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/ament_cmake_export_targets-extras.cmake
+[38.553s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[38.554s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[38.554s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controllerConfig.cmake
+[38.554s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controllerConfig-version.cmake
+[38.555s] -- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/package.xml
+[38.564s] Invoked command in '/home/lolerez/ros2_ws/build/motor_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/lolerez/ros2_ws/build/motor_controller

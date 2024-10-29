@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/motor_controller__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_controller/msg/detail/dds_fastrtps/dccommand__type_support.cpp.o"
+  "CMakeFiles/motor_controller__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_controller/msg/detail/dds_fastrtps/dccommand__type_support.cpp.o.d"
+  "CMakeFiles/motor_controller__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_controller/msg/detail/dds_fastrtps/stepper_command__type_support.cpp.o"
+  "CMakeFiles/motor_controller__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_controller/msg/detail/dds_fastrtps/stepper_command__type_support.cpp.o.d"
+  "CMakeFiles/motor_controller__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_controller/msg/detail/dds_fastrtps/unitree_command__type_support.cpp.o"
+  "CMakeFiles/motor_controller__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_controller/msg/detail/dds_fastrtps/unitree_command__type_support.cpp.o.d"
+  "libmotor_controller__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libmotor_controller__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/motor_controller/msg/detail/dccommand__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/motor_controller/msg/detail/dds_fastrtps/dccommand__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/motor_controller/msg/detail/dds_fastrtps/stepper_command__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/motor_controller/msg/detail/dds_fastrtps/unitree_command__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/motor_controller/msg/detail/stepper_command__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/motor_controller/msg/detail/unitree_command__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/motor_controller__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

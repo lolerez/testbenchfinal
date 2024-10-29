@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>motor_controller</name>
+  <version>0.0.1</version>
+  <description>Motor controller package for autonomous rover</description>
+  <maintainer email="lolerez@tamu.edu">Your Name</maintainer>
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+  <!-- Add this line to indicate that this package includes interface files -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

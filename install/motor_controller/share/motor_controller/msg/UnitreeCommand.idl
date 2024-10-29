@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from motor_controller/msg/UnitreeCommand.msg
+// generated code does not contain a copyright notice
+
+
+module motor_controller {
+  module msg {
+    struct UnitreeCommand {
+      @verbatim (language="comment", text=
+        "Position")
+      float q;
+
+      @verbatim (language="comment", text=
+        "Speed")
+      float dq;
+
+      @verbatim (language="comment", text=
+        "Feedforward torque")
+      float tau;
+
+      @verbatim (language="comment", text=
+        "Position stiffness")
+      float kp;
+
+      @verbatim (language="comment", text=
+        "Velocity stiffness (damping)")
+      float kd;
+    };
+  };
+};

@@ -1,0 +1,1088 @@
+[0.000000] (-) TimerEvent: {}
+[0.000930] (motor_controller) JobQueued: {'identifier': 'motor_controller', 'dependencies': OrderedDict()}
+[0.001318] (motor_controller) JobStarted: {'identifier': 'motor_controller'}
+[0.109565] (-) TimerEvent: {}
+[0.137325] (motor_controller) JobProgress: {'identifier': 'motor_controller', 'progress': 'cmake'}
+[0.139686] (motor_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/lolerez/ros2_ws/src/motor_controller', '-DCMAKE_INSTALL_PREFIX=/home/lolerez/ros2_ws/install/motor_controller'], 'cwd': '/home/lolerez/ros2_ws/build/motor_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lolerez', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/lolerez/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lolerez/ros2_ws/install/motor_controller/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lolerez', 'OLDPWD': '/home/lolerez/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.94.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-852afcba-53e3-498b-9f9f-36fbce63c33f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/lolerez/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/lolerez/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/node', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', '_colcon_cd_root': '/opt/ros/jazzy/', 'COLCON_PREFIX_PATH': '/home/lolerez/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lolerez', 'NAME': 'DESKTOP-S5P3QPD', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/lolerez/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/Windows Live/Shared:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Users/loler/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/loler/.dotnet/tools:/mnt/c/Users/loler/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/Nmap', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-58c6319fee.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/lolerez/ros2_ws/install/motor_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/lolerez/ros2_ws/build/motor_controller', 'PYTHONPATH': '/home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/lolerez/ros2_ws/install/motor_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[0.211251] (-) TimerEvent: {}
+[0.317892] (-) TimerEvent: {}
+[0.427438] (-) TimerEvent: {}
+[0.536187] (-) TimerEvent: {}
+[0.645222] (-) TimerEvent: {}
+[0.753151] (-) TimerEvent: {}
+[0.859237] (motor_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[0.859964] (-) TimerEvent: {}
+[0.974691] (-) TimerEvent: {}
+[1.083880] (-) TimerEvent: {}
+[1.193596] (-) TimerEvent: {}
+[1.301815] (-) TimerEvent: {}
+[1.322641] (motor_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[1.408561] (-) TimerEvent: {}
+[1.518235] (-) TimerEvent: {}
+[1.564994] (motor_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.628019] (-) TimerEvent: {}
+[1.736820] (-) TimerEvent: {}
+[1.844921] (-) TimerEvent: {}
+[1.953633] (-) TimerEvent: {}
+[2.064338] (-) TimerEvent: {}
+[2.175560] (-) TimerEvent: {}
+[2.282264] (-) TimerEvent: {}
+[2.391547] (-) TimerEvent: {}
+[2.450186] (motor_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.470656] (motor_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.471471] (motor_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.472496] (motor_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.501260] (-) TimerEvent: {}
+[2.599746] (motor_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.611970] (-) TimerEvent: {}
+[2.722174] (-) TimerEvent: {}
+[2.833036] (-) TimerEvent: {}
+[2.941701] (-) TimerEvent: {}
+[3.050962] (-) TimerEvent: {}
+[3.162131] (-) TimerEvent: {}
+[3.273866] (-) TimerEvent: {}
+[3.384110] (-) TimerEvent: {}
+[3.493338] (-) TimerEvent: {}
+[3.599537] (-) TimerEvent: {}
+[3.631751] (motor_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.657469] (motor_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.658481] (motor_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.659787] (motor_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.710613] (-) TimerEvent: {}
+[3.744690] (motor_controller) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[3.821867] (-) TimerEvent: {}
+[3.932038] (-) TimerEvent: {}
+[4.041289] (-) TimerEvent: {}
+[4.151012] (-) TimerEvent: {}
+[4.261324] (-) TimerEvent: {}
+[4.370410] (-) TimerEvent: {}
+[4.479642] (-) TimerEvent: {}
+[4.588409] (-) TimerEvent: {}
+[4.696618] (-) TimerEvent: {}
+[4.805355] (-) TimerEvent: {}
+[4.848993] (motor_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.916230] (-) TimerEvent: {}
+[5.026466] (-) TimerEvent: {}
+[5.133468] (-) TimerEvent: {}
+[5.243645] (-) TimerEvent: {}
+[5.353868] (-) TimerEvent: {}
+[5.462104] (-) TimerEvent: {}
+[5.571349] (-) TimerEvent: {}
+[5.654669] (motor_controller) StdoutLine: {'line': b'-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[5.681668] (-) TimerEvent: {}
+[5.790420] (-) TimerEvent: {}
+[5.900323] (-) TimerEvent: {}
+[6.008775] (-) TimerEvent: {}
+[6.102219] (motor_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[6.116009] (-) TimerEvent: {}
+[6.224822] (-) TimerEvent: {}
+[6.292604] (motor_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[6.334953] (-) TimerEvent: {}
+[6.444261] (-) TimerEvent: {}
+[6.554990] (-) TimerEvent: {}
+[6.558656] (motor_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.663259] (-) TimerEvent: {}
+[6.771007] (-) TimerEvent: {}
+[6.796752] (motor_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.880760] (-) TimerEvent: {}
+[6.989981] (-) TimerEvent: {}
+[7.099686] (-) TimerEvent: {}
+[7.207588] (-) TimerEvent: {}
+[7.315920] (-) TimerEvent: {}
+[7.424043] (-) TimerEvent: {}
+[7.535808] (-) TimerEvent: {}
+[7.633532] (motor_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[7.645446] (-) TimerEvent: {}
+[7.699416] (motor_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.754032] (-) TimerEvent: {}
+[7.864003] (-) TimerEvent: {}
+[7.971727] (-) TimerEvent: {}
+[8.081542] (-) TimerEvent: {}
+[8.192308] (-) TimerEvent: {}
+[8.300485] (-) TimerEvent: {}
+[8.409233] (-) TimerEvent: {}
+[8.518459] (-) TimerEvent: {}
+[8.628690] (-) TimerEvent: {}
+[8.715216] (motor_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[8.736689] (-) TimerEvent: {}
+[8.823477] (motor_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[8.846875] (-) TimerEvent: {}
+[8.931932] (motor_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.958108] (-) TimerEvent: {}
+[9.068039] (-) TimerEvent: {}
+[9.177739] (-) TimerEvent: {}
+[9.284792] (-) TimerEvent: {}
+[9.393962] (-) TimerEvent: {}
+[9.449835] (motor_controller) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[9.503265] (-) TimerEvent: {}
+[9.608212] (motor_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[9.608475] (-) TimerEvent: {}
+[9.644209] (motor_controller) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[9.708711] (-) TimerEvent: {}
+[9.816070] (-) TimerEvent: {}
+[9.925780] (-) TimerEvent: {}
+[10.034280] (-) TimerEvent: {}
+[10.145592] (-) TimerEvent: {}
+[10.254614] (-) TimerEvent: {}
+[10.360830] (-) TimerEvent: {}
+[10.468048] (-) TimerEvent: {}
+[10.579266] (-) TimerEvent: {}
+[10.689591] (-) TimerEvent: {}
+[10.799692] (-) TimerEvent: {}
+[10.908891] (-) TimerEvent: {}
+[11.020171] (-) TimerEvent: {}
+[11.128863] (-) TimerEvent: {}
+[11.238073] (-) TimerEvent: {}
+[11.346117] (-) TimerEvent: {}
+[11.454333] (-) TimerEvent: {}
+[11.562467] (motor_controller) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[11.562799] (-) TimerEvent: {}
+[11.674336] (-) TimerEvent: {}
+[11.782076] (-) TimerEvent: {}
+[11.891058] (-) TimerEvent: {}
+[12.000759] (-) TimerEvent: {}
+[12.112003] (-) TimerEvent: {}
+[12.220768] (-) TimerEvent: {}
+[12.328063] (-) TimerEvent: {}
+[12.437359] (-) TimerEvent: {}
+[12.547139] (-) TimerEvent: {}
+[12.656452] (-) TimerEvent: {}
+[12.767690] (-) TimerEvent: {}
+[12.877807] (-) TimerEvent: {}
+[12.987627] (-) TimerEvent: {}
+[13.098325] (-) TimerEvent: {}
+[13.208120] (-) TimerEvent: {}
+[13.319380] (-) TimerEvent: {}
+[13.428638] (-) TimerEvent: {}
+[13.538839] (-) TimerEvent: {}
+[13.650010] (-) TimerEvent: {}
+[13.760356] (-) TimerEvent: {}
+[13.868189] (-) TimerEvent: {}
+[13.977497] (-) TimerEvent: {}
+[14.087565] (-) TimerEvent: {}
+[14.196291] (-) TimerEvent: {}
+[14.235784] (motor_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[14.305580] (-) TimerEvent: {}
+[14.416185] (-) TimerEvent: {}
+[14.526937] (-) TimerEvent: {}
+[14.636246] (-) TimerEvent: {}
+[14.744414] (-) TimerEvent: {}
+[14.851651] (-) TimerEvent: {}
+[14.961724] (-) TimerEvent: {}
+[15.071940] (-) TimerEvent: {}
+[15.183094] (-) TimerEvent: {}
+[15.197094] (motor_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.247348] (motor_controller) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[15.289042] (-) TimerEvent: {}
+[15.398470] (-) TimerEvent: {}
+[15.507099] (-) TimerEvent: {}
+[15.616349] (-) TimerEvent: {}
+[15.727560] (-) TimerEvent: {}
+[15.775375] (motor_controller) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[15.835323] (-) TimerEvent: {}
+[15.943192] (-) TimerEvent: {}
+[16.053860] (-) TimerEvent: {}
+[16.162626] (-) TimerEvent: {}
+[16.271972] (-) TimerEvent: {}
+[16.380109] (-) TimerEvent: {}
+[16.487783] (-) TimerEvent: {}
+[16.598048] (-) TimerEvent: {}
+[16.708784] (-) TimerEvent: {}
+[16.819046] (-) TimerEvent: {}
+[16.928227] (-) TimerEvent: {}
+[17.038738] (-) TimerEvent: {}
+[17.149578] (-) TimerEvent: {}
+[17.209070] (motor_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[17.259371] (-) TimerEvent: {}
+[17.369024] (-) TimerEvent: {}
+[17.424117] (motor_controller) StdoutLine: {'line': b'-- Non-Raspberry Pi environment detected. Skipping pigpio.\n'}
+[17.479077] (motor_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[17.479623] (-) TimerEvent: {}
+[17.588782] (-) TimerEvent: {}
+[17.603657] (motor_controller) StdoutLine: {'line': b'-- Configuring done (17.3s)\n'}
+[17.700544] (-) TimerEvent: {}
+[17.808315] (-) TimerEvent: {}
+[17.917577] (-) TimerEvent: {}
+[18.027293] (-) TimerEvent: {}
+[18.135032] (-) TimerEvent: {}
+[18.197137] (motor_controller) StdoutLine: {'line': b'-- Generating done (0.6s)\n'}
+[18.245891] (-) TimerEvent: {}
+[18.293941] (motor_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/lolerez/ros2_ws/build/motor_controller\n'}
+[18.333318] (motor_controller) CommandEnded: {'returncode': 0}
+[18.334799] (motor_controller) JobProgress: {'identifier': 'motor_controller', 'progress': 'build'}
+[18.336442] (motor_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lolerez/ros2_ws/build/motor_controller', '--', '-j12', '-l12'], 'cwd': '/home/lolerez/ros2_ws/build/motor_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lolerez', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/lolerez/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lolerez/ros2_ws/install/motor_controller/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lolerez', 'OLDPWD': '/home/lolerez/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.94.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-852afcba-53e3-498b-9f9f-36fbce63c33f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/lolerez/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/lolerez/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/node', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', '_colcon_cd_root': '/opt/ros/jazzy/', 'COLCON_PREFIX_PATH': '/home/lolerez/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lolerez', 'NAME': 'DESKTOP-S5P3QPD', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/lolerez/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/Windows Live/Shared:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Users/loler/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/loler/.dotnet/tools:/mnt/c/Users/loler/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/Nmap', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-58c6319fee.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/lolerez/ros2_ws/install/motor_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/lolerez/ros2_ws/build/motor_controller', 'PYTHONPATH': '/home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/lolerez/ros2_ws/install/motor_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[18.352960] (-) TimerEvent: {}
+[18.459618] (-) TimerEvent: {}
+[18.567916] (-) TimerEvent: {}
+[18.677624] (-) TimerEvent: {}
+[18.785918] (-) TimerEvent: {}
+[18.894563] (-) TimerEvent: {}
+[19.002814] (-) TimerEvent: {}
+[19.059191] (motor_controller) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/libs/serial/src/impl/unix.cc.o\x1b[0m\n'}
+[19.063181] (motor_controller) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/libs/serial/src/serial.cc.o\x1b[0m\n'}
+[19.069267] (motor_controller) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[19.073786] (motor_controller) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/libs/serial/src/impl/list_ports/list_ports_linux.cc.o\x1b[0m\n'}
+[19.112247] (-) TimerEvent: {}
+[19.217444] (motor_controller) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_motor_controller\n'}
+[19.217922] (-) TimerEvent: {}
+[19.328590] (-) TimerEvent: {}
+[19.436230] (-) TimerEvent: {}
+[19.547808] (-) TimerEvent: {}
+[19.658503] (-) TimerEvent: {}
+[19.767614] (-) TimerEvent: {}
+[19.877142] (-) TimerEvent: {}
+[19.986207] (-) TimerEvent: {}
+[20.093912] (-) TimerEvent: {}
+[20.202666] (-) TimerEvent: {}
+[20.312790] (-) TimerEvent: {}
+[20.422278] (-) TimerEvent: {}
+[20.529849] (-) TimerEvent: {}
+[20.608666] (motor_controller) StdoutLine: {'line': b'[  6%] Built target motor_controller__rosidl_generator_type_description\n'}
+[20.636459] (-) TimerEvent: {}
+[20.729716] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lolerez/ros2_ws/src/motor_controller/libs/serial/src/impl/list_ports/list_ports_linux.cc:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::__cxx11::basic_string<char> >\x1b[01;32m\x1b[K glob\x1b[m\x1b[K(const std::vector<std::__cxx11::basic_string<char> >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.730602] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lolerez/ros2_ws/src/motor_controller/libs/serial/src/impl/list_ports/list_ports_linux.cc:66:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.731386] (motor_controller) StderrLine: {'line': b'   66 |     for(int path_index = 0; \x1b[01;35m\x1b[Kpath_index < glob_results.gl_pathc\x1b[m\x1b[K; path_index++)\n'}
+[20.731705] (motor_controller) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.731969] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lolerez/ros2_ws/src/motor_controller/libs/serial/src/impl/list_ports/list_ports_linux.cc:57:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kglob_retval\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.732304] (motor_controller) StderrLine: {'line': b'   57 |     int \x1b[01;35m\x1b[Kglob_retval\x1b[m\x1b[K = glob(patterns[0].c_str(), 0, NULL, &glob_results);\n'}
+[20.732550] (motor_controller) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.744027] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lolerez/ros2_ws/src/motor_controller/libs/serial/src/impl/list_ports/list_ports_linux.cc:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[01;32m\x1b[K format\x1b[m\x1b[K(const char*, ...)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.744643] (-) TimerEvent: {}
+[20.744953] (motor_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lolerez/ros2_ws/src/motor_controller/libs/serial/src/impl/list_ports/list_ports_linux.cc:246:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.745466] (motor_controller) StderrLine: {'line': b'  246 |         else if( \x1b[01;35m\x1b[Kreturn_value >= buffer_size_bytes\x1b[m\x1b[K )\n'}
+[20.745912] (motor_controller) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.800040] (motor_controller) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[20.853553] (-) TimerEvent: {}
+[20.965882] (-) TimerEvent: {}
+[20.982060] (motor_controller) StdoutLine: {'line': b'running egg_info\n'}
+[20.983625] (motor_controller) StdoutLine: {'line': b'creating motor_controller.egg-info\n'}
+[21.049947] (motor_controller) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[21.069590] (-) TimerEvent: {}
+[21.166482] (motor_controller) StdoutLine: {'line': b'writing motor_controller.egg-info/PKG-INFO\n'}
+[21.167892] (motor_controller) StdoutLine: {'line': b'writing dependency_links to motor_controller.egg-info/dependency_links.txt\n'}
+[21.169680] (motor_controller) StdoutLine: {'line': b'writing top-level names to motor_controller.egg-info/top_level.txt\n'}
+[21.170375] (-) TimerEvent: {}
+[21.172597] (motor_controller) StdoutLine: {'line': b"writing manifest file 'motor_controller.egg-info/SOURCES.txt'\n"}
+[21.294088] (-) TimerEvent: {}
+[21.407345] (-) TimerEvent: {}
+[21.517006] (-) TimerEvent: {}
+[21.625372] (-) TimerEvent: {}
+[21.642852] (motor_controller) StdoutLine: {'line': b'[ 10%] \x1b[32m\x1b[1mLinking CXX static library libserial.a\x1b[0m\n'}
+[21.734373] (-) TimerEvent: {}
+[21.781991] (motor_controller) StdoutLine: {'line': b"reading manifest file 'motor_controller.egg-info/SOURCES.txt'\n"}
+[21.784656] (motor_controller) StdoutLine: {'line': b"writing manifest file 'motor_controller.egg-info/SOURCES.txt'\n"}
+[21.843611] (-) TimerEvent: {}
+[21.953368] (-) TimerEvent: {}
+[22.000069] (motor_controller) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_build_motor_controller_egg\n'}
+[22.062968] (-) TimerEvent: {}
+[22.172660] (-) TimerEvent: {}
+[22.282027] (-) TimerEvent: {}
+[22.392618] (-) TimerEvent: {}
+[22.499024] (-) TimerEvent: {}
+[22.512090] (motor_controller) StdoutLine: {'line': b'[ 10%] Built target serial\n'}
+[22.605825] (-) TimerEvent: {}
+[22.717942] (-) TimerEvent: {}
+[22.820814] (-) TimerEvent: {}
+[22.929478] (-) TimerEvent: {}
+[23.037932] (-) TimerEvent: {}
+[23.146547] (-) TimerEvent: {}
+[23.255266] (-) TimerEvent: {}
+[23.360666] (-) TimerEvent: {}
+[23.473111] (-) TimerEvent: {}
+[23.578579] (-) TimerEvent: {}
+[23.646427] (motor_controller) StdoutLine: {'line': b'[ 10%] Built target motor_controller__cpp\n'}
+[23.686551] (-) TimerEvent: {}
+[23.798267] (-) TimerEvent: {}
+[23.815991] (motor_controller) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_c.dir/rosidl_generator_c/motor_controller/msg/detail/dccommand__description.c.o\x1b[0m\n'}
+[23.827426] (motor_controller) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_c.dir/rosidl_generator_c/motor_controller/msg/detail/dccommand__functions.c.o\x1b[0m\n'}
+[23.839166] (motor_controller) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_c.dir/rosidl_generator_c/motor_controller/msg/detail/dccommand__type_support.c.o\x1b[0m\n'}
+[23.851320] (motor_controller) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_c.dir/rosidl_generator_c/motor_controller/msg/detail/stepper_command__description.c.o\x1b[0m\n'}
+[23.859816] (motor_controller) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_c.dir/rosidl_generator_c/motor_controller/msg/detail/stepper_command__type_support.c.o\x1b[0m\n'}
+[23.866084] (motor_controller) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_c.dir/rosidl_generator_c/motor_controller/msg/detail/stepper_command__functions.c.o\x1b[0m\n'}
+[23.873403] (motor_controller) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_c.dir/rosidl_generator_c/motor_controller/msg/detail/unitree_command__description.c.o\x1b[0m\n'}
+[23.892398] (motor_controller) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_c.dir/rosidl_generator_c/motor_controller/msg/detail/unitree_command__type_support.c.o\x1b[0m\n'}
+[23.897265] (motor_controller) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_c.dir/rosidl_generator_c/motor_controller/msg/detail/unitree_command__functions.c.o\x1b[0m\n'}
+[23.904296] (-) TimerEvent: {}
+[24.011299] (-) TimerEvent: {}
+[24.119294] (-) TimerEvent: {}
+[24.228336] (-) TimerEvent: {}
+[24.342169] (-) TimerEvent: {}
+[24.444006] (-) TimerEvent: {}
+[24.553991] (-) TimerEvent: {}
+[24.558733] (motor_controller) StdoutLine: {'line': b'[ 26%] \x1b[32m\x1b[1mLinking C shared library libmotor_controller__rosidl_generator_c.so\x1b[0m\n'}
+[24.664517] (-) TimerEvent: {}
+[24.776092] (-) TimerEvent: {}
+[24.884360] (-) TimerEvent: {}
+[24.993941] (-) TimerEvent: {}
+[25.035654] (motor_controller) StdoutLine: {'line': b'[ 26%] Built target motor_controller__rosidl_generator_c\n'}
+[25.102668] (-) TimerEvent: {}
+[25.211437] (-) TimerEvent: {}
+[25.258691] (motor_controller) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[25.273956] (motor_controller) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[25.274653] (motor_controller) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[25.275815] (motor_controller) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[25.276555] (motor_controller) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[25.292344] (motor_controller) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[25.320082] (-) TimerEvent: {}
+[25.433700] (-) TimerEvent: {}
+[25.539487] (-) TimerEvent: {}
+[25.650150] (-) TimerEvent: {}
+[25.758877] (-) TimerEvent: {}
+[25.867665] (-) TimerEvent: {}
+[25.983204] (-) TimerEvent: {}
+[26.099740] (-) TimerEvent: {}
+[26.211791] (-) TimerEvent: {}
+[26.319735] (-) TimerEvent: {}
+[26.425678] (-) TimerEvent: {}
+[26.534697] (-) TimerEvent: {}
+[26.651331] (-) TimerEvent: {}
+[26.754147] (-) TimerEvent: {}
+[26.865482] (-) TimerEvent: {}
+[26.976172] (-) TimerEvent: {}
+[27.091265] (-) TimerEvent: {}
+[27.205092] (-) TimerEvent: {}
+[27.317523] (-) TimerEvent: {}
+[27.422212] (-) TimerEvent: {}
+[27.530648] (-) TimerEvent: {}
+[27.640535] (-) TimerEvent: {}
+[27.750040] (-) TimerEvent: {}
+[27.855626] (-) TimerEvent: {}
+[27.965394] (-) TimerEvent: {}
+[28.072067] (-) TimerEvent: {}
+[28.092834] (motor_controller) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_controller/msg/dccommand__type_support.cpp.o\x1b[0m\n'}
+[28.181499] (-) TimerEvent: {}
+[28.190573] (motor_controller) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_controller/msg/dccommand__type_support.cpp.o\x1b[0m\n'}
+[28.211509] (motor_controller) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_controller/msg/stepper_command__type_support.cpp.o\x1b[0m\n'}
+[28.278541] (motor_controller) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_controller/msg/stepper_command__type_support.cpp.o\x1b[0m\n'}
+[28.291128] (-) TimerEvent: {}
+[28.338401] (motor_controller) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_c.dir/rosidl_typesupport_c/motor_controller/msg/unitree_command__type_support.cpp.o\x1b[0m\n'}
+[28.362937] (motor_controller) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motor_controller/msg/unitree_command__type_support.cpp.o\x1b[0m\n'}
+[28.399947] (-) TimerEvent: {}
+[28.507592] (motor_controller) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_controller/msg/detail/stepper_command__type_support.cpp.o\x1b[0m\n'}
+[28.508279] (-) TimerEvent: {}
+[28.553349] (motor_controller) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_controller/msg/detail/unitree_command__type_support.cpp.o\x1b[0m\n'}
+[28.558559] (motor_controller) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motor_controller/msg/detail/dccommand__type_support.cpp.o\x1b[0m\n'}
+[28.617062] (-) TimerEvent: {}
+[28.641207] (motor_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_controller/msg/detail/dccommand__type_support.c.o\x1b[0m\n'}
+[28.723414] (-) TimerEvent: {}
+[28.833048] (-) TimerEvent: {}
+[28.891614] (motor_controller) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_controller/msg/detail/dds_fastrtps/dccommand__type_support.cpp.o\x1b[0m\n'}
+[28.942787] (-) TimerEvent: {}
+[28.997425] (motor_controller) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motor_controller/msg/detail/dccommand__type_support_c.cpp.o\x1b[0m\n'}
+[29.052558] (-) TimerEvent: {}
+[29.165045] (motor_controller) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_controller/msg/detail/dds_fastrtps/stepper_command__type_support.cpp.o\x1b[0m\n'}
+[29.165867] (-) TimerEvent: {}
+[29.272701] (-) TimerEvent: {}
+[29.296100] (motor_controller) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motor_controller/msg/detail/stepper_command__type_support_c.cpp.o\x1b[0m\n'}
+[29.360220] (motor_controller) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_controller__rosidl_typesupport_c.so\x1b[0m\n'}
+[29.380930] (-) TimerEvent: {}
+[29.491045] (-) TimerEvent: {}
+[29.584227] (motor_controller) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_controller/msg/detail/stepper_command__type_support.c.o\x1b[0m\n'}
+[29.599437] (-) TimerEvent: {}
+[29.709540] (-) TimerEvent: {}
+[29.818545] (-) TimerEvent: {}
+[29.927961] (-) TimerEvent: {}
+[30.053709] (-) TimerEvent: {}
+[30.176244] (-) TimerEvent: {}
+[30.294016] (-) TimerEvent: {}
+[30.418422] (-) TimerEvent: {}
+[30.450931] (motor_controller) StdoutLine: {'line': b'[ 60%] Built target motor_controller__rosidl_typesupport_c\n'}
+[30.534857] (-) TimerEvent: {}
+[30.563546] (motor_controller) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motor_controller/msg/detail/unitree_command__type_support.c.o\x1b[0m\n'}
+[30.649946] (-) TimerEvent: {}
+[30.727576] (motor_controller) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motor_controller/msg/detail/dds_fastrtps/unitree_command__type_support.cpp.o\x1b[0m\n'}
+[30.772313] (-) TimerEvent: {}
+[30.890917] (-) TimerEvent: {}
+[31.002265] (-) TimerEvent: {}
+[31.106861] (-) TimerEvent: {}
+[31.243434] (-) TimerEvent: {}
+[31.353465] (-) TimerEvent: {}
+[31.432486] (motor_controller) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motor_controller/msg/detail/unitree_command__type_support_c.cpp.o\x1b[0m\n'}
+[31.467309] (-) TimerEvent: {}
+[31.560766] (motor_controller) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_controller__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[31.576440] (-) TimerEvent: {}
+[31.583065] (motor_controller) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking C shared library libmotor_controller__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[31.678236] (-) TimerEvent: {}
+[31.786845] (-) TimerEvent: {}
+[31.810156] (motor_controller) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_controller__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[31.896333] (-) TimerEvent: {}
+[32.007011] (-) TimerEvent: {}
+[32.116972] (-) TimerEvent: {}
+[32.224164] (-) TimerEvent: {}
+[32.326385] (motor_controller) StdoutLine: {'line': b'[ 69%] Built target motor_controller__rosidl_typesupport_introspection_c\n'}
+[32.327013] (-) TimerEvent: {}
+[32.391488] (motor_controller) StdoutLine: {'line': b'[ 69%] Built target motor_controller__rosidl_typesupport_cpp\n'}
+[32.428382] (-) TimerEvent: {}
+[32.538167] (-) TimerEvent: {}
+[32.621136] (motor_controller) StdoutLine: {'line': b'[ 69%] Built target motor_controller__rosidl_typesupport_introspection_cpp\n'}
+[32.646763] (-) TimerEvent: {}
+[32.755976] (-) TimerEvent: {}
+[32.865195] (-) TimerEvent: {}
+[32.941694] (motor_controller) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller_node.dir/src/motor_controller_node.cpp.o\x1b[0m\n'}
+[32.955363] (motor_controller) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/command_subscriber.dir/src/command_subscriber.cpp.o\x1b[0m\n'}
+[32.957642] (motor_controller) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/gpio_subscriber_node.dir/src/gpio_subscriber_node.cpp.o\x1b[0m\n'}
+[32.966593] (-) TimerEvent: {}
+[32.982715] (motor_controller) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/gpio_subscriber_node.dir/src/gpio_subscriber_main.cpp.o\x1b[0m\n'}
+[33.069196] (-) TimerEvent: {}
+[33.178944] (-) TimerEvent: {}
+[33.289586] (-) TimerEvent: {}
+[33.399561] (-) TimerEvent: {}
+[33.510004] (-) TimerEvent: {}
+[33.618548] (-) TimerEvent: {}
+[33.727361] (-) TimerEvent: {}
+[33.838784] (-) TimerEvent: {}
+[33.946869] (-) TimerEvent: {}
+[34.055424] (-) TimerEvent: {}
+[34.164698] (-) TimerEvent: {}
+[34.273912] (-) TimerEvent: {}
+[34.316170] (motor_controller) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_controller__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[34.383146] (-) TimerEvent: {}
+[34.493340] (-) TimerEvent: {}
+[34.602534] (-) TimerEvent: {}
+[34.614867] (motor_controller) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libmotor_controller__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[34.709845] (-) TimerEvent: {}
+[34.820600] (-) TimerEvent: {}
+[34.931606] (-) TimerEvent: {}
+[34.943876] (motor_controller) StdoutLine: {'line': b'[ 78%] Built target motor_controller__rosidl_typesupport_fastrtps_cpp\n'}
+[35.038719] (-) TimerEvent: {}
+[35.147479] (-) TimerEvent: {}
+[35.256335] (-) TimerEvent: {}
+[35.282574] (motor_controller) StdoutLine: {'line': b'[ 78%] Built target motor_controller__rosidl_typesupport_fastrtps_c\n'}
+[35.366828] (-) TimerEvent: {}
+[35.477251] (-) TimerEvent: {}
+[35.586241] (-) TimerEvent: {}
+[35.628313] (motor_controller) StdoutLine: {'line': b'[ 78%] Built target motor_controller\n'}
+[35.697437] (-) TimerEvent: {}
+[35.806346] (-) TimerEvent: {}
+[35.916068] (-) TimerEvent: {}
+[35.990889] (motor_controller) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[36.025799] (-) TimerEvent: {}
+[36.134184] (-) TimerEvent: {}
+[36.245492] (-) TimerEvent: {}
+[36.354696] (-) TimerEvent: {}
+[36.462229] (-) TimerEvent: {}
+[36.570713] (-) TimerEvent: {}
+[36.680614] (-) TimerEvent: {}
+[36.790854] (-) TimerEvent: {}
+[36.901708] (-) TimerEvent: {}
+[37.009335] (-) TimerEvent: {}
+[37.119173] (-) TimerEvent: {}
+[37.226660] (-) TimerEvent: {}
+[37.334322] (-) TimerEvent: {}
+[37.442992] (-) TimerEvent: {}
+[37.553874] (-) TimerEvent: {}
+[37.659705] (-) TimerEvent: {}
+[37.771785] (-) TimerEvent: {}
+[37.878709] (-) TimerEvent: {}
+[37.988135] (-) TimerEvent: {}
+[38.098845] (-) TimerEvent: {}
+[38.135070] (motor_controller) StdoutLine: {'line': b'[ 80%] Built target motor_controller__py\n'}
+[38.207944] (-) TimerEvent: {}
+[38.319954] (-) TimerEvent: {}
+[38.427400] (-) TimerEvent: {}
+[38.537900] (-) TimerEvent: {}
+[38.575835] (motor_controller) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_py.dir/rosidl_generator_py/motor_controller/msg/_dccommand_s.c.o\x1b[0m\n'}
+[38.586931] (motor_controller) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_py.dir/rosidl_generator_py/motor_controller/msg/_stepper_command_s.c.o\x1b[0m\n'}
+[38.593008] (motor_controller) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/motor_controller__rosidl_generator_py.dir/rosidl_generator_py/motor_controller/msg/_unitree_command_s.c.o\x1b[0m\n'}
+[38.646685] (-) TimerEvent: {}
+[38.754037] (-) TimerEvent: {}
+[38.864816] (-) TimerEvent: {}
+[38.976436] (-) TimerEvent: {}
+[39.086666] (-) TimerEvent: {}
+[39.197420] (-) TimerEvent: {}
+[39.305747] (-) TimerEvent: {}
+[39.415512] (-) TimerEvent: {}
+[39.526314] (-) TimerEvent: {}
+[39.634490] (-) TimerEvent: {}
+[39.745061] (-) TimerEvent: {}
+[39.885433] (-) TimerEvent: {}
+[39.994195] (-) TimerEvent: {}
+[40.101915] (-) TimerEvent: {}
+[40.141447] (motor_controller) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library libmotor_controller__rosidl_generator_py.so\x1b[0m\n'}
+[40.212705] (-) TimerEvent: {}
+[40.324227] (-) TimerEvent: {}
+[40.432352] (-) TimerEvent: {}
+[40.540113] (-) TimerEvent: {}
+[40.650362] (-) TimerEvent: {}
+[40.721237] (motor_controller) StdoutLine: {'line': b'[ 86%] Built target motor_controller__rosidl_generator_py\n'}
+[40.759736] (-) TimerEvent: {}
+[40.867653] (-) TimerEvent: {}
+[40.977672] (-) TimerEvent: {}
+[41.086418] (-) TimerEvent: {}
+[41.145414] (motor_controller) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/motor_controller_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/motor_controller/_motor_controller_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[41.159040] (motor_controller) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/motor_controller_s__rosidl_typesupport_c.dir/rosidl_generator_py/motor_controller/_motor_controller_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[41.159865] (motor_controller) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/motor_controller_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/motor_controller/_motor_controller_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[41.197600] (-) TimerEvent: {}
+[41.305882] (-) TimerEvent: {}
+[41.415994] (-) TimerEvent: {}
+[41.524010] (-) TimerEvent: {}
+[41.633495] (-) TimerEvent: {}
+[41.743265] (-) TimerEvent: {}
+[41.853364] (-) TimerEvent: {}
+[41.961113] (-) TimerEvent: {}
+[42.070805] (-) TimerEvent: {}
+[42.181070] (-) TimerEvent: {}
+[42.289556] (-) TimerEvent: {}
+[42.397954] (-) TimerEvent: {}
+[42.430803] (motor_controller) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/motor_controller/motor_controller_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[42.454226] (motor_controller) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/motor_controller/motor_controller_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[42.509459] (-) TimerEvent: {}
+[42.569047] (motor_controller) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/motor_controller/motor_controller_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[42.619234] (-) TimerEvent: {}
+[42.733044] (-) TimerEvent: {}
+[42.836141] (-) TimerEvent: {}
+[42.943760] (-) TimerEvent: {}
+[43.051606] (-) TimerEvent: {}
+[43.066169] (motor_controller) StdoutLine: {'line': b'[ 95%] Built target motor_controller_s__rosidl_typesupport_c\n'}
+[43.070051] (motor_controller) StdoutLine: {'line': b'[ 95%] Built target motor_controller_s__rosidl_typesupport_introspection_c\n'}
+[43.163231] (-) TimerEvent: {}
+[43.175461] (motor_controller) StdoutLine: {'line': b'[ 95%] Built target motor_controller_s__rosidl_typesupport_fastrtps_c\n'}
+[43.272124] (-) TimerEvent: {}
+[43.382183] (-) TimerEvent: {}
+[43.491074] (-) TimerEvent: {}
+[43.599780] (-) TimerEvent: {}
+[43.707873] (-) TimerEvent: {}
+[43.815007] (-) TimerEvent: {}
+[43.925377] (-) TimerEvent: {}
+[44.033511] (-) TimerEvent: {}
+[44.144912] (-) TimerEvent: {}
+[44.254986] (-) TimerEvent: {}
+[44.366267] (-) TimerEvent: {}
+[44.476948] (-) TimerEvent: {}
+[44.584717] (-) TimerEvent: {}
+[44.693295] (-) TimerEvent: {}
+[44.803228] (-) TimerEvent: {}
+[44.912751] (-) TimerEvent: {}
+[45.021146] (-) TimerEvent: {}
+[45.130348] (-) TimerEvent: {}
+[45.239619] (-) TimerEvent: {}
+[45.349307] (-) TimerEvent: {}
+[45.460069] (-) TimerEvent: {}
+[45.569503] (-) TimerEvent: {}
+[45.675735] (-) TimerEvent: {}
+[45.784963] (-) TimerEvent: {}
+[45.894249] (-) TimerEvent: {}
+[46.004949] (-) TimerEvent: {}
+[46.115070] (-) TimerEvent: {}
+[46.224755] (-) TimerEvent: {}
+[46.334515] (-) TimerEvent: {}
+[46.444679] (-) TimerEvent: {}
+[46.553701] (-) TimerEvent: {}
+[46.661804] (-) TimerEvent: {}
+[46.770759] (-) TimerEvent: {}
+[46.880789] (-) TimerEvent: {}
+[46.991687] (-) TimerEvent: {}
+[47.101168] (-) TimerEvent: {}
+[47.211486] (-) TimerEvent: {}
+[47.320752] (-) TimerEvent: {}
+[47.430965] (-) TimerEvent: {}
+[47.541680] (-) TimerEvent: {}
+[47.650252] (-) TimerEvent: {}
+[47.759483] (-) TimerEvent: {}
+[47.869300] (-) TimerEvent: {}
+[47.978408] (-) TimerEvent: {}
+[48.087502] (-) TimerEvent: {}
+[48.195963] (-) TimerEvent: {}
+[48.304695] (-) TimerEvent: {}
+[48.413910] (-) TimerEvent: {}
+[48.521808] (-) TimerEvent: {}
+[48.631590] (-) TimerEvent: {}
+[48.741701] (-) TimerEvent: {}
+[48.852430] (-) TimerEvent: {}
+[48.963147] (-) TimerEvent: {}
+[49.074671] (-) TimerEvent: {}
+[49.182419] (-) TimerEvent: {}
+[49.291091] (-) TimerEvent: {}
+[49.400891] (-) TimerEvent: {}
+[49.509561] (-) TimerEvent: {}
+[49.620372] (-) TimerEvent: {}
+[49.730835] (-) TimerEvent: {}
+[49.837563] (-) TimerEvent: {}
+[49.945923] (-) TimerEvent: {}
+[50.055621] (-) TimerEvent: {}
+[50.165200] (-) TimerEvent: {}
+[50.274920] (-) TimerEvent: {}
+[50.383587] (-) TimerEvent: {}
+[50.494298] (-) TimerEvent: {}
+[50.602525] (-) TimerEvent: {}
+[50.711710] (-) TimerEvent: {}
+[50.820409] (-) TimerEvent: {}
+[50.928187] (-) TimerEvent: {}
+[51.032889] (-) TimerEvent: {}
+[51.144619] (-) TimerEvent: {}
+[51.255267] (-) TimerEvent: {}
+[51.364505] (-) TimerEvent: {}
+[51.474752] (-) TimerEvent: {}
+[51.586138] (-) TimerEvent: {}
+[51.695781] (-) TimerEvent: {}
+[51.805697] (-) TimerEvent: {}
+[51.915901] (-) TimerEvent: {}
+[52.026097] (-) TimerEvent: {}
+[52.135829] (-) TimerEvent: {}
+[52.243699] (-) TimerEvent: {}
+[52.351431] (-) TimerEvent: {}
+[52.462215] (-) TimerEvent: {}
+[52.572566] (-) TimerEvent: {}
+[52.682398] (-) TimerEvent: {}
+[52.792673] (-) TimerEvent: {}
+[52.902311] (-) TimerEvent: {}
+[53.011023] (-) TimerEvent: {}
+[53.119078] (-) TimerEvent: {}
+[53.228322] (-) TimerEvent: {}
+[53.337758] (-) TimerEvent: {}
+[53.444226] (-) TimerEvent: {}
+[53.554404] (-) TimerEvent: {}
+[53.661659] (-) TimerEvent: {}
+[53.771927] (-) TimerEvent: {}
+[53.881446] (-) TimerEvent: {}
+[53.991191] (-) TimerEvent: {}
+[54.099959] (-) TimerEvent: {}
+[54.209165] (-) TimerEvent: {}
+[54.317387] (-) TimerEvent: {}
+[54.427534] (-) TimerEvent: {}
+[54.536839] (-) TimerEvent: {}
+[54.645607] (-) TimerEvent: {}
+[54.756201] (-) TimerEvent: {}
+[54.865865] (-) TimerEvent: {}
+[54.976001] (-) TimerEvent: {}
+[55.085318] (-) TimerEvent: {}
+[55.193510] (-) TimerEvent: {}
+[55.300779] (-) TimerEvent: {}
+[55.411613] (-) TimerEvent: {}
+[55.522425] (-) TimerEvent: {}
+[55.632471] (-) TimerEvent: {}
+[55.743828] (-) TimerEvent: {}
+[55.853003] (-) TimerEvent: {}
+[55.962628] (-) TimerEvent: {}
+[56.072062] (-) TimerEvent: {}
+[56.180777] (-) TimerEvent: {}
+[56.290504] (-) TimerEvent: {}
+[56.400354] (-) TimerEvent: {}
+[56.510527] (-) TimerEvent: {}
+[56.619752] (-) TimerEvent: {}
+[56.730337] (-) TimerEvent: {}
+[56.840036] (-) TimerEvent: {}
+[56.948598] (-) TimerEvent: {}
+[57.057766] (-) TimerEvent: {}
+[57.166096] (-) TimerEvent: {}
+[57.274453] (-) TimerEvent: {}
+[57.384661] (-) TimerEvent: {}
+[57.493674] (-) TimerEvent: {}
+[57.602932] (-) TimerEvent: {}
+[57.712606] (-) TimerEvent: {}
+[57.820834] (-) TimerEvent: {}
+[57.931034] (-) TimerEvent: {}
+[58.039379] (-) TimerEvent: {}
+[58.150263] (-) TimerEvent: {}
+[58.257968] (-) TimerEvent: {}
+[58.366694] (-) TimerEvent: {}
+[58.476945] (-) TimerEvent: {}
+[58.585646] (-) TimerEvent: {}
+[58.696349] (-) TimerEvent: {}
+[58.804302] (-) TimerEvent: {}
+[58.913945] (-) TimerEvent: {}
+[59.023170] (-) TimerEvent: {}
+[59.130836] (-) TimerEvent: {}
+[59.241653] (-) TimerEvent: {}
+[59.350974] (-) TimerEvent: {}
+[59.458966] (-) TimerEvent: {}
+[59.569659] (-) TimerEvent: {}
+[59.678341] (-) TimerEvent: {}
+[59.788014] (-) TimerEvent: {}
+[59.895981] (-) TimerEvent: {}
+[60.005542] (-) TimerEvent: {}
+[60.115805] (-) TimerEvent: {}
+[60.224495] (-) TimerEvent: {}
+[60.333865] (-) TimerEvent: {}
+[60.443475] (-) TimerEvent: {}
+[60.551674] (-) TimerEvent: {}
+[60.662819] (-) TimerEvent: {}
+[60.771699] (-) TimerEvent: {}
+[60.882283] (-) TimerEvent: {}
+[60.994052] (-) TimerEvent: {}
+[61.102098] (-) TimerEvent: {}
+[61.212309] (-) TimerEvent: {}
+[61.321420] (-) TimerEvent: {}
+[61.431146] (-) TimerEvent: {}
+[61.539424] (-) TimerEvent: {}
+[61.649749] (-) TimerEvent: {}
+[61.757865] (-) TimerEvent: {}
+[61.867243] (-) TimerEvent: {}
+[61.977996] (-) TimerEvent: {}
+[62.088693] (-) TimerEvent: {}
+[62.198366] (-) TimerEvent: {}
+[62.305596] (-) TimerEvent: {}
+[62.414809] (-) TimerEvent: {}
+[62.523617] (-) TimerEvent: {}
+[62.632465] (-) TimerEvent: {}
+[62.741737] (-) TimerEvent: {}
+[62.851869] (-) TimerEvent: {}
+[62.960247] (-) TimerEvent: {}
+[63.069260] (-) TimerEvent: {}
+[63.177973] (-) TimerEvent: {}
+[63.288754] (-) TimerEvent: {}
+[63.397625] (-) TimerEvent: {}
+[63.506124] (-) TimerEvent: {}
+[63.613618] (-) TimerEvent: {}
+[63.723006] (-) TimerEvent: {}
+[63.832456] (-) TimerEvent: {}
+[63.940187] (-) TimerEvent: {}
+[64.049915] (-) TimerEvent: {}
+[64.160332] (-) TimerEvent: {}
+[64.270802] (-) TimerEvent: {}
+[64.376350] (-) TimerEvent: {}
+[64.486662] (-) TimerEvent: {}
+[64.595773] (-) TimerEvent: {}
+[64.704759] (-) TimerEvent: {}
+[64.814480] (-) TimerEvent: {}
+[64.924694] (-) TimerEvent: {}
+[65.052515] (-) TimerEvent: {}
+[65.159789] (-) TimerEvent: {}
+[65.270318] (-) TimerEvent: {}
+[65.380285] (-) TimerEvent: {}
+[65.491019] (-) TimerEvent: {}
+[65.602846] (-) TimerEvent: {}
+[65.708052] (-) TimerEvent: {}
+[65.817706] (-) TimerEvent: {}
+[65.927291] (-) TimerEvent: {}
+[66.037038] (-) TimerEvent: {}
+[66.145906] (-) TimerEvent: {}
+[66.254046] (-) TimerEvent: {}
+[66.363356] (-) TimerEvent: {}
+[66.472073] (-) TimerEvent: {}
+[66.581262] (-) TimerEvent: {}
+[66.689950] (-) TimerEvent: {}
+[66.799302] (-) TimerEvent: {}
+[66.909432] (-) TimerEvent: {}
+[67.018185] (-) TimerEvent: {}
+[67.127854] (-) TimerEvent: {}
+[67.236353] (-) TimerEvent: {}
+[67.345708] (-) TimerEvent: {}
+[67.454767] (-) TimerEvent: {}
+[67.565066] (-) TimerEvent: {}
+[67.674731] (-) TimerEvent: {}
+[67.785057] (-) TimerEvent: {}
+[67.896244] (-) TimerEvent: {}
+[68.006557] (-) TimerEvent: {}
+[68.117988] (-) TimerEvent: {}
+[68.228751] (-) TimerEvent: {}
+[68.337534] (-) TimerEvent: {}
+[68.447896] (-) TimerEvent: {}
+[68.553910] (-) TimerEvent: {}
+[68.663174] (-) TimerEvent: {}
+[68.771892] (-) TimerEvent: {}
+[68.882702] (-) TimerEvent: {}
+[68.993917] (-) TimerEvent: {}
+[69.100618] (-) TimerEvent: {}
+[69.211505] (-) TimerEvent: {}
+[69.320362] (-) TimerEvent: {}
+[69.428098] (-) TimerEvent: {}
+[69.539333] (-) TimerEvent: {}
+[69.650050] (-) TimerEvent: {}
+[69.759781] (-) TimerEvent: {}
+[69.870060] (-) TimerEvent: {}
+[69.977502] (-) TimerEvent: {}
+[70.085303] (-) TimerEvent: {}
+[70.193999] (-) TimerEvent: {}
+[70.305277] (-) TimerEvent: {}
+[70.414907] (-) TimerEvent: {}
+[70.522651] (-) TimerEvent: {}
+[70.633300] (-) TimerEvent: {}
+[70.744111] (-) TimerEvent: {}
+[70.854794] (-) TimerEvent: {}
+[70.961840] (-) TimerEvent: {}
+[71.069523] (-) TimerEvent: {}
+[71.177832] (-) TimerEvent: {}
+[71.287476] (-) TimerEvent: {}
+[71.364541] (motor_controller) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable gpio_subscriber_node\x1b[0m\n'}
+[71.394027] (-) TimerEvent: {}
+[71.503531] (-) TimerEvent: {}
+[71.613692] (-) TimerEvent: {}
+[71.659443] (motor_controller) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable command_subscriber\x1b[0m\n'}
+[71.722748] (-) TimerEvent: {}
+[71.833481] (-) TimerEvent: {}
+[71.943675] (-) TimerEvent: {}
+[72.053433] (-) TimerEvent: {}
+[72.163544] (-) TimerEvent: {}
+[72.272319] (-) TimerEvent: {}
+[72.381696] (-) TimerEvent: {}
+[72.491037] (-) TimerEvent: {}
+[72.599335] (-) TimerEvent: {}
+[72.710217] (-) TimerEvent: {}
+[72.819930] (-) TimerEvent: {}
+[72.928693] (-) TimerEvent: {}
+[73.038930] (-) TimerEvent: {}
+[73.148933] (-) TimerEvent: {}
+[73.233641] (motor_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable motor_controller_node\x1b[0m\n'}
+[73.258464] (-) TimerEvent: {}
+[73.367263] (-) TimerEvent: {}
+[73.476456] (-) TimerEvent: {}
+[73.585067] (-) TimerEvent: {}
+[73.693659] (-) TimerEvent: {}
+[73.803526] (-) TimerEvent: {}
+[73.846501] (motor_controller) StdoutLine: {'line': b'[100%] Built target gpio_subscriber_node\n'}
+[73.912226] (-) TimerEvent: {}
+[74.020917] (-) TimerEvent: {}
+[74.088085] (motor_controller) StdoutLine: {'line': b'[100%] Built target command_subscriber\n'}
+[74.131548] (-) TimerEvent: {}
+[74.241778] (-) TimerEvent: {}
+[74.348935] (-) TimerEvent: {}
+[74.459362] (-) TimerEvent: {}
+[74.567325] (-) TimerEvent: {}
+[74.676060] (-) TimerEvent: {}
+[74.786742] (-) TimerEvent: {}
+[74.895065] (-) TimerEvent: {}
+[75.004208] (-) TimerEvent: {}
+[75.114066] (-) TimerEvent: {}
+[75.135031] (motor_controller) StdoutLine: {'line': b'[100%] Built target motor_controller_node\n'}
+[75.223289] (-) TimerEvent: {}
+[75.254832] (motor_controller) CommandEnded: {'returncode': 0}
+[75.331979] (-) TimerEvent: {}
+[75.442198] (-) TimerEvent: {}
+[75.553444] (-) TimerEvent: {}
+[75.663681] (-) TimerEvent: {}
+[75.772979] (-) TimerEvent: {}
+[75.884164] (-) TimerEvent: {}
+[75.995457] (-) TimerEvent: {}
+[76.103007] (-) TimerEvent: {}
+[76.214200] (-) TimerEvent: {}
+[76.324990] (-) TimerEvent: {}
+[76.434379] (-) TimerEvent: {}
+[76.545146] (-) TimerEvent: {}
+[76.655358] (-) TimerEvent: {}
+[76.765572] (-) TimerEvent: {}
+[76.821567] (motor_controller) JobProgress: {'identifier': 'motor_controller', 'progress': 'install'}
+[76.874774] (-) TimerEvent: {}
+[76.901438] (motor_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lolerez/ros2_ws/build/motor_controller'], 'cwd': '/home/lolerez/ros2_ws/build/motor_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lolerez', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'GIT_ASKPASS': '/home/lolerez/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lolerez/ros2_ws/install/motor_controller/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/lolerez', 'OLDPWD': '/home/lolerez/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.94.2', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-852afcba-53e3-498b-9f9f-36fbce63c33f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/lolerez/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/lolerez/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/node', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', '_colcon_cd_root': '/opt/ros/jazzy/', 'COLCON_PREFIX_PATH': '/home/lolerez/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'lolerez', 'NAME': 'DESKTOP-S5P3QPD', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/lolerez/.vscode-server/bin/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/Windows Live/Shared:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Users/loler/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/loler/.dotnet/tools:/mnt/c/Users/loler/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/Nmap', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-58c6319fee.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/lolerez/ros2_ws/install/motor_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/lolerez/ros2_ws/build/motor_controller', 'PYTHONPATH': '/home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/lolerez/ros2_ws/install/motor_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[76.976978] (motor_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[76.977249] (-) TimerEvent: {}
+[76.978572] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/ament_index/resource_index/rosidl_interfaces/motor_controller\n'}
+[76.981059] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/Dccommand.json\n'}
+[76.983082] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/StepperCommand.json\n'}
+[76.986143] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/UnitreeCommand.json\n'}
+[76.989292] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller\n'}
+[76.990592] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg\n'}
+[76.991200] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/dccommand.h\n'}
+[76.993017] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail\n'}
+[76.993664] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__description.c\n'}
+[76.995465] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__functions.c\n'}
+[76.997447] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__functions.h\n'}
+[77.000388] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__struct.h\n'}
+[77.003232] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__type_support.c\n'}
+[77.006317] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__type_support.h\n'}
+[77.010970] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__description.c\n'}
+[77.012630] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__functions.c\n'}
+[77.015359] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__functions.h\n'}
+[77.018514] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__struct.h\n'}
+[77.021397] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__type_support.c\n'}
+[77.024764] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__type_support.h\n'}
+[77.027477] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__description.c\n'}
+[77.030089] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__functions.c\n'}
+[77.032711] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__functions.h\n'}
+[77.034998] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__struct.h\n'}
+[77.037979] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__type_support.c\n'}
+[77.041148] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__type_support.h\n'}
+[77.044337] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/rosidl_generator_c__visibility_control.h\n'}
+[77.047201] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/stepper_command.h\n'}
+[77.049970] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/unitree_command.h\n'}
+[77.053614] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/environment/library_path.sh\n'}
+[77.056560] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/environment/library_path.dsv\n'}
+[77.060416] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_generator_c.so\n'}
+[77.075547] (motor_controller) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_generator_c.so" to ""\n'}
+[77.075985] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller\n'}
+[77.076288] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg\n'}
+[77.076568] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail\n'}
+[77.077049] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__rosidl_typesupport_fastrtps_c.h\n'}
+[77.077297] (-) TimerEvent: {}
+[77.079907] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__rosidl_typesupport_fastrtps_c.h\n'}
+[77.083323] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__rosidl_typesupport_fastrtps_c.h\n'}
+[77.086932] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[77.091126] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_fastrtps_c.so\n'}
+[77.106406] (motor_controller) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[77.106858] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller\n'}
+[77.107167] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg\n'}
+[77.107427] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/dccommand.hpp\n'}
+[77.110181] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail\n'}
+[77.110718] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__builder.hpp\n'}
+[77.112825] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__struct.hpp\n'}
+[77.115251] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__traits.hpp\n'}
+[77.117610] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__type_support.hpp\n'}
+[77.120122] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__builder.hpp\n'}
+[77.122441] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__struct.hpp\n'}
+[77.125056] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__traits.hpp\n'}
+[77.128269] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__type_support.hpp\n'}
+[77.131090] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__builder.hpp\n'}
+[77.133422] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__struct.hpp\n'}
+[77.135721] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__traits.hpp\n'}
+[77.138270] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__type_support.hpp\n'}
+[77.186452] (-) TimerEvent: {}
+[77.243505] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[77.245619] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/stepper_command.hpp\n'}
+[77.247669] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/unitree_command.hpp\n'}
+[77.249932] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller\n'}
+[77.250298] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg\n'}
+[77.250631] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail\n'}
+[77.251042] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[77.258183] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dds_fastrtps\n'}
+[77.258926] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[77.261165] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[77.263558] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[77.267176] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_fastrtps_cpp.so\n'}
+[77.284496] (motor_controller) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[77.284988] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller\n'}
+[77.285279] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg\n'}
+[77.285613] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail\n'}
+[77.286022] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__rosidl_typesupport_introspection_c.h\n'}
+[77.288126] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__type_support.c\n'}
+[77.288384] (-) TimerEvent: {}
+[77.290489] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__rosidl_typesupport_introspection_c.h\n'}
+[77.292749] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__type_support.c\n'}
+[77.295375] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__rosidl_typesupport_introspection_c.h\n'}
+[77.298359] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__type_support.c\n'}
+[77.300884] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[77.303531] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_introspection_c.so\n'}
+[77.315984] (motor_controller) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_introspection_c.so" to ""\n'}
+[77.316631] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_c.so\n'}
+[77.328695] (motor_controller) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_c.so" to ""\n'}
+[77.329158] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller\n'}
+[77.329551] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg\n'}
+[77.329915] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail\n'}
+[77.330261] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__rosidl_typesupport_introspection_cpp.hpp\n'}
+[77.332518] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/dccommand__type_support.cpp\n'}
+[77.334657] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[77.336979] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/stepper_command__type_support.cpp\n'}
+[77.339165] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[77.341784] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller/msg/detail/unitree_command__type_support.cpp\n'}
+[77.344320] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_introspection_cpp.so\n'}
+[77.357060] (motor_controller) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[77.357615] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_cpp.so\n'}
+[77.371679] (motor_controller) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_typesupport_cpp.so" to ""\n'}
+[77.372133] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/environment/pythonpath.sh\n'}
+[77.374120] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/environment/pythonpath.dsv\n'}
+[77.376132] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller-0.0.1-py3.12.egg-info\n'}
+[77.377283] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller-0.0.1-py3.12.egg-info/dependency_links.txt\n'}
+[77.379313] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller-0.0.1-py3.12.egg-info/PKG-INFO\n'}
+[77.381310] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller-0.0.1-py3.12.egg-info/SOURCES.txt\n'}
+[77.383732] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller-0.0.1-py3.12.egg-info/top_level.txt\n'}
+[77.385701] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller\n'}
+[77.386937] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_c.so\n'}
+[77.390137] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_fastrtps_c.so\n'}
+[77.390420] (-) TimerEvent: {}
+[77.392995] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_introspection_c.so\n'}
+[77.395345] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg\n'}
+[77.396114] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/_dccommand.py\n'}
+[77.398230] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/_dccommand_s.c\n'}
+[77.400959] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/_stepper_command.py\n'}
+[77.404589] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/_stepper_command_s.c\n'}
+[77.407125] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/_unitree_command.py\n'}
+[77.409390] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/_unitree_command_s.c\n'}
+[77.411423] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/__init__.py\n'}
+[77.413566] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/_motor_controller_s.ep.rosidl_typesupport_c.c\n'}
+[77.415732] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/_motor_controller_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[77.418471] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/_motor_controller_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[77.421446] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/__init__.py\n'}
+[77.496074] (-) TimerEvent: {}
+[77.578587] (motor_controller) StdoutLine: {'line': b"Listing '/home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller'...\n"}
+[77.579050] (motor_controller) StdoutLine: {'line': b"Compiling '/home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/__init__.py'...\n"}
+[77.579399] (motor_controller) StdoutLine: {'line': b"Listing '/home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg'...\n"}
+[77.579627] (motor_controller) StdoutLine: {'line': b"Compiling '/home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/__init__.py'...\n"}
+[77.579828] (motor_controller) StdoutLine: {'line': b"Compiling '/home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/_dccommand.py'...\n"}
+[77.580012] (motor_controller) StdoutLine: {'line': b"Compiling '/home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/_stepper_command.py'...\n"}
+[77.580189] (motor_controller) StdoutLine: {'line': b"Compiling '/home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/msg/_unitree_command.py'...\n"}
+[77.594761] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_fastrtps_c.so\n'}
+[77.605283] (-) TimerEvent: {}
+[77.607487] (motor_controller) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[77.609761] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_introspection_c.so\n'}
+[77.626041] (motor_controller) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[77.627951] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_c.so\n'}
+[77.645887] (motor_controller) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/python3.12/site-packages/motor_controller/motor_controller_s__rosidl_typesupport_c.so" to ""\n'}
+[77.646815] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_generator_py.so\n'}
+[77.667809] (motor_controller) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/libmotor_controller__rosidl_generator_py.so" to ""\n'}
+[77.668327] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/Dccommand.idl\n'}
+[77.672300] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/StepperCommand.idl\n'}
+[77.676035] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/UnitreeCommand.idl\n'}
+[77.679141] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/Dccommand.msg\n'}
+[77.682701] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/StepperCommand.msg\n'}
+[77.688234] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/msg/UnitreeCommand.msg\n'}
+[77.692128] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/motor_controller/motor_controller_node\n'}
+[77.712385] (-) TimerEvent: {}
+[77.781150] (motor_controller) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/motor_controller/motor_controller_node" to ""\n'}
+[77.781988] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/motor_controller/command_subscriber\n'}
+[77.821612] (-) TimerEvent: {}
+[77.874578] (motor_controller) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/motor_controller/command_subscriber" to ""\n'}
+[77.875424] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/motor_controller/gpio_subscriber_node\n'}
+[77.931560] (-) TimerEvent: {}
+[78.040153] (-) TimerEvent: {}
+[78.058553] (motor_controller) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/lolerez/ros2_ws/install/motor_controller/lib/motor_controller/gpio_subscriber_node" to ""\n'}
+[78.059371] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/lib/motor_controller/libserial.a\n'}
+[78.066390] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include\n'}
+[78.067205] (motor_controller) StdoutLine: {'line': b'-- Up-to-date: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller\n'}
+[78.068036] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/gpio_subscriber_node.hpp\n'}
+[78.073931] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/motor_controller/motor_controller_node.hpp\n'}
+[78.077105] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/include/serial\n'}
+[78.079243] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/ament_index/resource_index/package_run_dependencies/motor_controller\n'}
+[78.088065] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/ament_index/resource_index/parent_prefix_path/motor_controller\n'}
+[78.093329] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/environment/ament_prefix_path.sh\n'}
+[78.099960] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/environment/ament_prefix_path.dsv\n'}
+[78.107500] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/environment/path.sh\n'}
+[78.112236] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/environment/path.dsv\n'}
+[78.116460] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/local_setup.bash\n'}
+[78.121337] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/local_setup.sh\n'}
+[78.125900] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/local_setup.zsh\n'}
+[78.130495] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/local_setup.dsv\n'}
+[78.134717] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/package.dsv\n'}
+[78.141606] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/ament_index/resource_index/packages/motor_controller\n'}
+[78.142162] (-) TimerEvent: {}
+[78.147439] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_generator_cExport.cmake\n'}
+[78.152410] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_generator_cExport-noconfig.cmake\n'}
+[78.159844] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[78.166414] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[78.170779] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_generator_cppExport.cmake\n'}
+[78.175472] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[78.179398] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[78.183937] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_introspection_cExport.cmake\n'}
+[78.188657] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[78.193054] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_cExport.cmake\n'}
+[78.197648] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[78.202568] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[78.207895] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[78.213533] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_cppExport.cmake\n'}
+[78.217975] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controller__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[78.223030] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_generator_pyExport.cmake\n'}
+[78.227804] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/export_motor_controller__rosidl_generator_pyExport-noconfig.cmake\n'}
+[78.232682] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/rosidl_cmake-extras.cmake\n'}
+[78.237312] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[78.241304] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[78.243137] (-) TimerEvent: {}
+[78.244974] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[78.249131] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[78.253458] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[78.257621] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[78.262432] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controllerConfig.cmake\n'}
+[78.267221] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/cmake/motor_controllerConfig-version.cmake\n'}
+[78.273568] (motor_controller) StdoutLine: {'line': b'-- Installing: /home/lolerez/ros2_ws/install/motor_controller/share/motor_controller/package.xml\n'}
+[78.293366] (motor_controller) CommandEnded: {'returncode': 0}
+[78.350855] (-) TimerEvent: {}
+[78.462099] (-) TimerEvent: {}
+[78.569680] (-) TimerEvent: {}
+[78.680004] (-) TimerEvent: {}
+[78.790248] (-) TimerEvent: {}
+[78.900607] (-) TimerEvent: {}
+[79.010198] (-) TimerEvent: {}
+[79.120678] (-) TimerEvent: {}
+[79.228264] (-) TimerEvent: {}
+[79.334904] (-) TimerEvent: {}
+[79.445485] (-) TimerEvent: {}
+[79.553911] (-) TimerEvent: {}
+[79.661794] (-) TimerEvent: {}
+[79.769451] (-) TimerEvent: {}
+[79.878192] (-) TimerEvent: {}
+[79.986456] (-) TimerEvent: {}
+[80.097168] (-) TimerEvent: {}
+[80.205859] (-) TimerEvent: {}
+[80.315456] (-) TimerEvent: {}
+[80.424405] (-) TimerEvent: {}
+[80.532751] (-) TimerEvent: {}
+[80.641337] (-) TimerEvent: {}
+[80.728883] (motor_controller) JobEnded: {'identifier': 'motor_controller', 'rc': 0}
+[80.732121] (-) EventReactorShutdown: {}
