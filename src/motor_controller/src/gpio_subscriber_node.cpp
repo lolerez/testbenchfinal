@@ -8,7 +8,7 @@ GPIOSubscriberNode::GPIOSubscriberNode()
     RCLCPP_INFO(this->get_logger(), "Initializing GPIO Subscriber Node...");
 
     // Initialize serial communication
-    serial_port_.setPort("/dev/ttyUSB0");
+    serial_port_.setPort("/dev/ttyUSB1");
     serial_port_.setBaudrate(115200);
     serial_port_.open();
 
