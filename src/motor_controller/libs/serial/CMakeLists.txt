@@ -61,6 +61,14 @@ add_executable(serial_example examples/serial_example.cc)
 add_dependencies(serial_example ${PROJECT_NAME})
 target_link_libraries(serial_example ${PROJECT_NAME})
 
+find_library(PIGPIO_LIBRARY NAMES pigpio)
+if(NOT PIGPIO_LIBRARY)
+    message(FATAL_ERROR "Could not find PIGPIO_LIBRARY using the following names: pigpio")
+endif()
+
+
+
+
 ## Include headers
 include_directories(include)
 
