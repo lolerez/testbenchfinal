@@ -1,0 +1,1 @@
+/home/lolerez/ros2_ws/build/motor_controller/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

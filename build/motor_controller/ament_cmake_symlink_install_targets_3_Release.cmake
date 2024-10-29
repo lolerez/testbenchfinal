@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/lolerez/ros2_ws/build/motor_controller/motor_controller_node" "/home/lolerez/ros2_ws/build/motor_controller/command_subscriber" "/home/lolerez/ros2_ws/build/motor_controller/gpio_subscriber_node" "TARGETS" "motor_controller_node" "command_subscriber" "gpio_subscriber_node" "DESTINATION" "lib/motor_controller")
