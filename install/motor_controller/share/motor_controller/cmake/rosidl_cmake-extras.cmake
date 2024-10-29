@@ -1,1 +1,0 @@
-/home/lolerez/ros2_ws/build/motor_controller/rosidl_cmake/rosidl_cmake-extras.cmake

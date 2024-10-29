@@ -1,1 +1,0 @@
-/home/lolerez/ros2_ws/src/motor_controller/msg/StepperCommand.msg
