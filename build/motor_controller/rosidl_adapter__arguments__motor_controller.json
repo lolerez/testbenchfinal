@@ -1,8 +1,0 @@
-{
-  "package_name": "motor_controller",
-  "non_idl_tuples": [
-    "/home/lolerez/ros2_ws/src/motor_controller:msg/Dccommand.msg",
-    "/home/lolerez/ros2_ws/src/motor_controller:msg/StepperCommand.msg",
-    "/home/lolerez/ros2_ws/src/motor_controller:msg/UnitreeCommand.msg"
-  ]
-}
