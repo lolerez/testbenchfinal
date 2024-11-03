@@ -2,15 +2,15 @@
 #include <serial/serial.h>
 using namespace serial;
 
-GPIOSubscriberNode::GPIOSubscriberNode() 
-    : Node("gpio_subscriber_node") 
+GPIOSubscriberNode::GPIOSubscriberNode()                                                            // constructor for gpiosubscribernode
+    : Node("gpio_subscriber_node")                                                  // initializes this node with namespace
 {
-    RCLCPP_INFO(this->get_logger(), "Initializing GPIO Subscriber Node...");
+    RCLCPP_INFO(this->get_logger(), "Initializing GPIO Subscriber Node...");            // ross2 logger (important)
 
     // Initialize serial communication
-    serial_port_.setPort("/dev/ttyUSB1");
-    serial_port_.setBaudrate(115200);
-    serial_port_.open();
+    serial_port_.setPort("/dev/ttyUSB1");                                               // check for rights at user level
+    serial_port_.setBaudrate(115200);                                                       
+    serial_port_.open();                                                                // run in a loop for error checking
 
     // Create subscribers with QoS settings
     auto qos = rclcpp::QoS(rclcpp::KeepLast(10))
